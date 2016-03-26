@@ -1,6 +1,6 @@
 body {
 	background-color: #ff6000;
-	font-family: sans-serif;
+	font-family: 'Hind', Helvetica, sans-serif;
 	color: #fff;
 }
 
@@ -11,8 +11,8 @@ a {
 section#summary {
 	position: absolute;
 	top: 10%;
-	left: 18%;
-	width: 400px;
+	left: 5%;
+	width: 500px;
 }
 
 ul {
