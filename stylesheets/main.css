@@ -1,8 +1,30 @@
 body {
 	background-color: #ff6000;
 	font-family: sans-serif;
+	color: #fff;
 }
 
 a {
 	text-decoration: none;
+}
+
+section#summary {
+	position: absolute;
+	top: 10%;
+	left: 18%;
+	width: 400px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul a {
+	color: #fff;
+	line-height: 1.5em;
+}
+
+ul a:hover {
+	color: #000;
+	text-decoration: underline;
 }
