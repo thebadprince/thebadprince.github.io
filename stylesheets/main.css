@@ -11,6 +11,8 @@ section#summary {
 	position: absolute;
 	top: 5%;
 	left: 5%;
+	margin-right: 20px;
+	margin-bottom: 50px;
 }
 
 h1 {
