@@ -8,11 +8,11 @@ body {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+a:active {
 	transition: color .3s;
-    transition-property: color;
-    transition-duration: .3s;
-    transition-timing-function: initial;
-    transition-delay: initial;
+	color: #eb5900;
 }
 
 section#summary {
@@ -60,6 +60,7 @@ ul li a {
 
 ul a:hover {
 	color: #ff6000;
+	transition: color .3s;
 }
 
 
