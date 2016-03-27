@@ -1,10 +1,16 @@
 body {
-	font-family: 'Karla', Verdana, sans-serif;
+	font-family: 'Avenir Next', Verdana, sans-serif;
+	color: #191919;
 	}
 
 a {
 	text-decoration: none;
 	color: inherit;
+	transition: color .3s;
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
 }
 
 section#summary {
@@ -23,30 +29,35 @@ h1 {
 
 h2 {
 	font-size: 1.7em;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 h3 {
 	font-size: 1.4em;
-	font-weight: 700;
+	font-weight: 400;
+	font-size: 1em;
+	text-transform: uppercase;
 }
 
 
-ul {
-	list-style-type: circle;
+p, ul {
+	list-style-type: none;
 	padding-left: 30px;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	font-weight: 400;
 	line-height: 1.4em
 }
 
 ul li {
-	margin: 12px;
+	margin: 15px 0;
+}
+
+ul li a {
+	font-weight: 700;
 }
 
 ul a:hover {
 	color: #ff6000;
-	font-weight: 700;
 }
 
 
