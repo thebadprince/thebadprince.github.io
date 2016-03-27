@@ -19,7 +19,7 @@ MESSAGE
 Hi.
 
 I am not sure how you found this message, 
-but I hope you’re doing well whoever you are.
+but I hope you are doing well whoever you are.
 
 You likely clicked View Source for whatever reason.
 
