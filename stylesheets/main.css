@@ -19,7 +19,6 @@ h1 {
 	font-size: 2em;
 	font-weight: 700;
 	color: #ff6000;
-
 }
 
 h2 {
@@ -34,7 +33,7 @@ h3 {
 
 
 ul {
-	list-style-type: none;
+	list-style-type: circle;
 	padding-left: 30px;
 	font-size: 1.1em;
 	font-weight: 400;
@@ -45,3 +44,5 @@ ul a:hover {
 	color: #ff6000;
 	font-weight: 700;
 }
+
+
