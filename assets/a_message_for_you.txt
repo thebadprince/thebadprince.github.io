@@ -1,6 +1,6 @@
 
 
-The humans.txt file explains the person behind this site,
+The .txt file explains the person behind this site,
 technology used, and a special letter whom the recipient is you.
 
 _______________________________________________________________________________
@@ -18,10 +18,10 @@ MESSAGE
 
 Hi.
 
-I’m not sure how you found this message, 
+I am not sure how you found this message, 
 but I hope you’re doing well whoever you are.
 
-Maybe you decided to check the CSS.
+You likely clicked View Source for whatever reason.
 
 Yes this entire website was hand-crafted. If hand-crafted means 
 learning from the many people I deeply admire and being influenced by 
@@ -30,7 +30,7 @@ their design taste, philosophies, and principles.
 And of course, learning from the World Wide Web.
 
 
-I love the Web because it’s easily the most powerful thing
+I love the Web because it is easily the most powerful thing
 created in our generation. I was born in 1990 in a middle-class
 family in the Philippines and I clearly remember what my life was like
 before, and what my life was like after the proliferation of the Web.
@@ -40,14 +40,14 @@ I remember what it was like before Wikipedia and after it.
 Blogging, all the social networks, apps, and what have you.
 
 Right now as I write this in March of 2016, we are in the before-VR and
-very soon we will know what it’s like after it. It has the potential to be
+very soon we will know what it is like after it. It has the potential to be
 the next platform, as mobile has been the past two decades.
 
 Who knows.
 
 
 All I know is I love the Web. And I want to help build things on it
-because it’s done so much for me. I still know very little. But I’m hellbent
+because it has done so much for me. I still know very little. But I am hellbent
 on getting better, in order to make things that can empower people at scale.
 
 
@@ -56,7 +56,7 @@ The exciting part is: we’re still at the very beginning.
 We have the power to create the future. But it will only happen if we choose to.
 
 
-And I’m up for it because I can’t see myself doing anything else.
+And I am up for it because I can’t see myself doing anything else.
 
 
 I hope you join me.
@@ -86,10 +86,9 @@ SPECIAL THANKS
 
 Mom, Dad, and my brother Jof
 Tim Berners-Lee
-And everyone who’s doing amazing stuff on the web, both experts and novices
-
-
-I salute you all.
+All the people who put stuff out into the universe that made me who I am today
+And everyone who’s doing amazing stuff on the web, both experts and novices.
+You are my brothers and sisters. I salute you all.
 
 
 _______________________________________________________________________________
