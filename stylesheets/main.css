@@ -50,6 +50,10 @@ h3 {
 	color: #009fff;
 }
 
+h6 {
+	font-weight: 600;
+	text-transform: uppercase;
+}
 
 p, ul {
 	list-style-type: none;
