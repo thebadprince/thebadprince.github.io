@@ -32,10 +32,10 @@ h1 {
 }
 
 h2 {
-	font-size: 2.8em;
+	font-size: 2.9em;
 	font-weight: 500;
 	font-family: 'Palatino', 'Palatino Linotype', serif;
-	width: 600px;
+	width: 650px;
 	line-height: 1.4em;
 
 }
@@ -57,7 +57,7 @@ p, ul {
 	font-weight: 400;
 	line-height: 1.6em;
 	margin-left: 0;
-	width: 650px;
+	width: 630px;
 	padding: 0;
 }
 
@@ -77,8 +77,13 @@ ul a:hover {
 	transition: color .3s;
 }
 
+footer {
+	margin-top: 50px;
+	font-size: .8em;
+}
 
-/*-- Media Query */
+
+/* Media Query */
 @media (max-width: 799px) {
 
 	h1 {
@@ -87,7 +92,7 @@ ul a:hover {
 
 	h2 {
 		width: 100%;
-		font-size: 2.1em;
+		font-size: 2.3em;
 	}
 
 	h3 {
@@ -98,6 +103,15 @@ ul a:hover {
 		font-size: 1.2em;
 		width: 100%;
 	}
+}
+
+/* Text Selection */
+
+::selection {
+  background: #ffa000;
+}
+::-moz-selection {
+  background: #fff; 
 }
 
 
