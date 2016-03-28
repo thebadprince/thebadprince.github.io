@@ -1,6 +1,10 @@
-/* Hand-Crafted CSS by Jomi Cubol */
+/* 
 
-/* Focus: Readability and Speed. Overall page size: 11.2 KBs */
+Hand-Crafted CSS by Jomi Cubol
+
+Focus: Readability and Speed. Overall page size: 11.2 KBs 
+
+*/
 
 body {
 	font-family: 'Avenir Next', Verdana, sans-serif;
@@ -99,7 +103,7 @@ footer {
 
 	h2 {
 		width: 100%;
-		font-size: 2.3em;
+		font-size: 2em;
 	}
 
 	h3 {
