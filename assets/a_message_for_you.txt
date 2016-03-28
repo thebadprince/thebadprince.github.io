@@ -39,7 +39,7 @@ I remember what it was like before Google and after it.
 I remember what it was like before Wikipedia and after it.
 Blogging, all the social networks, apps, and what have you.
 
-Right now as I write this in March of 2016, we are in the before-VR and
+Right now as I write this in March of 2016, we are in the before-VR era and
 very soon we will know what it is like after it. It has the potential to be
 the next platform, as mobile has been the past two decades.
 
@@ -76,7 +76,7 @@ Animate.CSS by Daniel Eden
 daneden.github.io/animate.css
 
 Font: 
-Aver Next by Adrian Frutiger and Akira Kobayashi 
+Avenir Next by Adrian Frutiger and Akira Kobayashi 
 
 
 _______________________________________________________________________________
@@ -98,7 +98,7 @@ LAST NOTE
 
 If you find this, please do let me know. It would warm my heart.
 
-Send a note to: thebadprince@gmail.com
+Send a note to: jomi@thebadprince.com
 
 
 
