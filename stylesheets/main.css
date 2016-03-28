@@ -24,43 +24,79 @@ section#summary {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.3em;
 	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
 	color: #ff6000;
 }
 
 h2 {
-	font-size: 1.7em;
+	font-size: 2.8em;
 	font-weight: 500;
+	font-family: 'Palatino', 'Palatino Linotype', serif;
+	width: 600px;
+	line-height: 1.4em;
+
 }
 
 h3 {
 	font-size: 1.4em;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.3em;
 	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	color: #009fff;
 }
 
 
 p, ul {
 	list-style-type: none;
-	padding-left: 30px;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-weight: 400;
-	line-height: 1.6em
+	line-height: 1.6em;
+	margin-left: 0;
+	padding: 0;
 }
 
 ul li {
-	margin: 15px 0;
+	margin-top: 15px;
 }
-
 ul li a {
 	font-weight: 700;
+}
+
+ul a {
+	color: #3D3D3D;
 }
 
 ul a:hover {
 	color: #ff6000;
 	transition: color .3s;
 }
+
+
+/*-- Media Query */
+@media (max-width: 799px) {
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		width: 100%;
+		font-size: 2.1em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+
+	p, ul {
+		font-size: 1.2em;
+	}
+}
+
 
 
