@@ -123,7 +123,8 @@ footer {
 /* Text Selection */
 
 ::selection {
-  background: #ffa000;
+  background: #ff8b00;
+  color: #fff;
 }
 ::-moz-selection {
   background: #fff; 
