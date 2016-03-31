@@ -2,7 +2,7 @@
 
 Hand-Crafted CSS by Jomi Cubol
 
-Focus: Readability and Speed. Overall page size: 11.2 KBs 
+Focus: Readability and Speed.
 
 */
 
@@ -14,11 +14,6 @@ body {
 a {
 	text-decoration: none;
 	color: inherit;
-}
-
-a:active {
-	transition: color .3s;
-	color: #eb5900;
 }
 
 section#summary {
@@ -80,10 +75,6 @@ ul li {
 }
 ul li a {
 	font-weight: 700;
-}
-
-ul a {
-	color: #404040;
 }
 
 ul a:hover {
