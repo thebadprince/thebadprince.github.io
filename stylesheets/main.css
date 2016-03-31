@@ -12,8 +12,8 @@ body {
 	}
 
 a, a:visited, a:active {
-	text-decoration: none;
-	color: #191919;
+  text-decoration: none;
+  color: inherit;
 }
 
 section#summary {
