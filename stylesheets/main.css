@@ -11,15 +11,6 @@ body {
 	color: #191919;
 	}
 
-a, a:visited, a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  color: #ff6000;
-}
-
 section#summary {
 	position: absolute;
 	top: 5%;
@@ -85,6 +76,15 @@ ul li {
 
 ul li a {
 	font-weight: 700;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #ff6000;
 }
 
 /* Fade */
