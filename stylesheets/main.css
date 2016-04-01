@@ -16,6 +16,10 @@ a, a:visited, a:active {
   color: inherit;
 }
 
+a:hover {
+  color: #ff6000;
+}
+
 section#summary {
 	position: absolute;
 	top: 5%;
@@ -54,6 +58,11 @@ h3 {
 	color: #009fff;
 }
 
+h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 h6 {
 	font-weight: 600;
 	text-transform: uppercase;
@@ -73,12 +82,9 @@ ul li {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
 ul li a {
 	font-weight: 700;
-}
-
-ul a:hover {
-	color: #ff6000;
 }
 
 /* Fade */
