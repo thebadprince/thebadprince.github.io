@@ -42,7 +42,6 @@ h2 {
 h3 {
 	font-size: 1.4em;
 	font-weight: 400;
-	font-size: 1.3em;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin-top: 20px;
@@ -126,7 +125,7 @@ footer {
 	}
 
 	h3 {
-		font-size: 1.2em;
+		font-size: 1.4em;
 	}
 
 	p, ul {
