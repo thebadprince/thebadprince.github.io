@@ -8,12 +8,14 @@ Focus: Readability and Speed.
 
 body {
 	font-family: 'Avenir Next', Verdana, sans-serif;
-	color: #191919;
+	color: #333;
+  background-color: #fff;
 	}
 
 a, a:visited, a:active {
   text-decoration: none;
   color: inherit;
+  font-weight: bold;
 }
 
 a:hover {
@@ -22,10 +24,7 @@ a:hover {
 
 section#summary {
 	position: absolute;
-	top: 5%;
-	left: 5%;
-	margin-right: 20px;
-	margin-bottom: 80px;
+  margin: 80px 80px;
 }
 
 .group {
@@ -33,49 +32,57 @@ section#summary {
 } 
 
 h1 {
-	font-size: 2.3em;
-	font-weight: 700;
-	text-transform: uppercase;
+  font-size: 2em;
+  text-transform: uppercase;
 	letter-spacing: 5px;
 	color: #ff6000;
 }
 
-h2 {
-	font-size: 3em;
-	font-weight: 500;
-	font-family: 'Palatino', 'Palatino Linotype', serif;
-	width: 640px;
-	line-height: 1.4em;
+#description {
+  font-size: 3.5em;
+  font-weight: 500;
+  font-family: 'Palatino', 'Palatino Linotype', serif;
+  line-height: 1.4em;
 }
 
-h3 {
-	font-size: 1.4em;
-	font-weight: 400;
+h2 {
+	font-size: 1.5em;
+	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin-top: 20px;
 	color: #009fff;
 }
 
-h5 {
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-h6 {
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
 p, ul {
 	list-style-type: none;
-	font-size: 1.2em;
+	font-size: 2em;
 	font-weight: 400;
 	line-height: 1.6em;
 	margin-left: 0;
-	width: 640px;
 	padding: 0;
 }
+
+.work-title {
+  font-family: 'Palatino', 'Palatino Linotype', serif;
+}
+
+.collaborators {
+  font-size: .5em;
+  font-family: 'Palatino', 'Palatino Linotype', serif;
+  padding: 5px;
+  border: 1px solid #333;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.image {
+  padding: 10px 10px;
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
 
 ul li {
 	margin-top: 20px;
@@ -106,32 +113,41 @@ ul li a {
 
 
 footer {
-	margin-top: 50px;
-	margin-bottom: 0;
-	font-size: .8em;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-size: .5em;
 }
-
 
 /* Media Query */
 @media (max-width: 799px) {
 
+  section#summary {
+  position: absolute;
+  margin: 10px 10px;
+  }
+
 	h1 {
-		font-size: 2em;
+		font-size: 1.3em;
 	}
+
+  #description {
+    font-size: 2.5em;
+  }
 
 	h2 {
 		width: 100%;
-		font-size: 2.3em;
-	}
-
-	h3 {
 		font-size: 1.3em;
 	}
 
 	p, ul {
-		font-size: 1.2em;
+		font-size: 1.3em;
 		width: 100%;
 	}
+
+  img {
+    max-width: 80%;
+    height: auto;
+  }
 }
 
 /* Text Selection */
