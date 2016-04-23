@@ -94,6 +94,13 @@ ul li a {
   font-weight: 700;
 }
 
+footer {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: .5em;
+}
+
+
 /* Fade */
 .hvr-fade {
   display: inline-block;
@@ -112,12 +119,6 @@ ul li a {
 }
 
 
-
-footer {
-	margin-top: 80px;
-	margin-bottom: 20px;
-	font-size: .5em;
-}
 
 /* Media Query */
 @media (max-width: 799px) {
