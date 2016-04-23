@@ -128,7 +128,7 @@ footer {
   }
 
   #logo {
-    margin: 1em auto;
+    margin-top: 2em;
   }
 
 	h1 {
@@ -152,6 +152,8 @@ footer {
   img {
     max-width: 80%;
     height: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
 
