@@ -127,6 +127,10 @@ footer {
   margin: 10px 10px;
   }
 
+  #logo {
+    margin: 1em auto;
+  }
+
 	h1 {
 		font-size: 1.3em;
 	}
