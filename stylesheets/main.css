@@ -65,8 +65,11 @@ p, ul {
 }
 
 p a {
-  padding: 0 10px;
-  border: 1px solid #ff6000;
+  border-bottom: 3px solid #ff6000;
+}
+
+p a:hover {
+  border-bottom: 3px solid #ff6000;
 }
 
 .work-title {
