@@ -65,11 +65,11 @@ p, ul {
 }
 
 p a {
-  border-bottom: 3px solid #ff6000;
+  border-bottom: 2px solid #ff6000;
 }
 
 p a:hover {
-  border-bottom: 3px solid #ff6000;
+  border-bottom: 2px solid #ff6000;
 }
 
 .work-title {
