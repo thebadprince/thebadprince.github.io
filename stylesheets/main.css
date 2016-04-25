@@ -15,7 +15,9 @@ body {
 
 a, a:visited, a:active {
   text-decoration: none;
-  color: inherit;
+  font-family: 'Merriweather Sans', Avenir Next, Verdana, sans-serif;
+  font-weight: 700;
+  color: #001f3f;
 }
 
 a:hover {
@@ -64,21 +66,17 @@ p, ul {
 	padding: 0;
 }
 
-p a, li a {
-  font-family: 'Merriweather Sans', Avenir Next, Verdana, sans-serif;
-  font-weight: 700;
-}
-
 .work-title {
   font-family: 'Merriweather Sans', Avenir Next, Verdana, sans-serif;
   font-weight: 400;
+  color: #111;
 }
 
 .collaborators {
   font-size: .5em;
   font-family: 'Merriweather', 'Palatino', 'Palatino Linotype', serif;
   padding: 5px;
-  border: 1px solid #d6d6d6;
+  border: 1px solid #dddddd;
   vertical-align: middle;
   margin-top: 20px;
 }
@@ -96,7 +94,7 @@ ul li {
 	margin-bottom: 20px;
 }
 
-footer, footer li , footer a{
+footer, footer p, footer li , footer a{
   margin-right: 15px;
   font-size: .8em;
   font-weight: 300;
