@@ -162,8 +162,9 @@ footer, footer p, footer li , footer a{
   }
 
   footer li {
-    display: block;
+    display: inline-block;
     font-size: 1em;
+    margin: 5px;
   }
 }
 
