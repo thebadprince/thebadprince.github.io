@@ -7,14 +7,15 @@ Focus: Readability and Speed.
 */
 
 body {
-	font-family: 'Merriweather', 'Avenir Next',Verdana, sans-serif;
+	font-family: "adelle", Avenir Next,Verdana, sans-serif;
 	color: #333;
   background-color: #fff;
+  font-weight: 300;
 	}
 
 a, a:visited, a:active {
   text-decoration: none;
-  font-family: 'Merriweather Sans', Avenir Next, Verdana, sans-serif;
+  font-family: "depot-new-web", Avenir Next, Verdana, sans-serif;
   font-weight: 700;
   color: #001f3f;
   border-bottom: #001f3f;
@@ -45,14 +46,14 @@ h1 {
 #description {
   font-size: 3.2em;
   font-weight: 300;
-  font-family: 'Merriweather', 'Palatino', 'Palatino Linotype', serif;
+  font-family: 'adelle', 'Palatino', 'Palatino Linotype', serif;
   line-height: 1.4em;
 }
 
 h2 {
 	font-size: 1.5em;
-	font-weight: 300;
-  font-family: 'Merriweather Sans', Avenir Next, Verdana, sans-serif;
+	font-weight: 400;
+  font-family: 'depot-new-web', Avenir Next, Verdana, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	margin-top: 20px;
@@ -69,14 +70,14 @@ p, ul {
 }
 
 .work-title {
-  font-family: 'Merriweather Sans', Avenir Next, Verdana, sans-serif;
+  font-family: 'adelle', Avenir Next, Verdana, sans-serif;
   font-weight: 400;
   color: #111;
 }
 
 .collaborators {
   font-size: .5em;
-  font-family: 'Merriweather', 'Palatino', 'Palatino Linotype', serif;
+  font-family: 'adelle', 'Palatino', 'Palatino Linotype', serif;
   padding: 5px;
   border: 1px solid #dddddd;
   vertical-align: middle;
