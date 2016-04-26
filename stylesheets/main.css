@@ -15,8 +15,10 @@ body {
 a, a:visited, a:active {
   text-decoration: none;
   font-family: 'Merriweather Sans', Avenir Next, Verdana, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   color: #001f3f;
+  border-bottom: #001f3f;
+  line-height: 1.5em;
 }
 
 a:hover {
