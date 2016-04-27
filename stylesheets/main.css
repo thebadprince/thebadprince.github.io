@@ -7,7 +7,7 @@ Focus: Readability and Speed.
 */
 
 body {
-	font-family: "pt-sans-caption", Avenir Next,Verdana, sans-serif;
+	font-family: "adelle", Avenir Next,Verdana, sans-serif;
 	color: #333;
   background-color: #fff;
   font-weight: 400;
@@ -47,6 +47,7 @@ h1 {
   font-weight: 400;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
   line-height: 1.4em;
+  text-align: center;
 }
 
 h2 {
@@ -69,14 +70,14 @@ p, ul {
 }
 
 .work-title {
-  font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
+  font-family: "pt-sans-caption", 'Palatino', 'Palatino Linotype', serif;
   font-weight: 400;
   color: #000;
 }
 
 .collaborators {
   font-size: .5em;
-  font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
+  font-family: "pt-sans-caption", 'Palatino', 'Palatino Linotype', serif;
   padding: 5px;
   border: 1px solid #ff6000;
   vertical-align: middle;
