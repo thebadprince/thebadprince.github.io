@@ -96,7 +96,11 @@ ul li {
 	margin-bottom: 20px;
 }
 
-footer, footer p, footer li , footer a{
+footer {
+  margin-top: 100px;
+}
+
+footer p, footer li , footer a{
   margin-right: 15px;
   font-size: .8em;
   font-weight: 300;
@@ -104,6 +108,10 @@ footer, footer p, footer li , footer a{
   display: inline;
 }
 
+.postscript {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
 
 /* Fade */
 .hvr-fade {
