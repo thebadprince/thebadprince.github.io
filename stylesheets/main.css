@@ -46,7 +46,6 @@ h1 {
   font-weight: 400;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
   line-height: 1.4em;
-  text-align: center;
 }
 
 h2 {
@@ -98,11 +97,12 @@ ul li {
 
 footer {
   margin-top: 100px;
+  text-align: center;
 }
 
 footer p, footer li , footer a{
   margin-right: 15px;
-  font-size: .8em;
+  font-size: 0.7em;
   font-weight: 300;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
   display: inline;
