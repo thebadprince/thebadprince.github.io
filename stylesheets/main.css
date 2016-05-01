@@ -27,7 +27,7 @@ a:hover {
 
 section#summary {
 	position: absolute;
-  margin: 80px 90px;
+  margin: 80px 300px;
 }
 
 .group {
@@ -42,7 +42,7 @@ h1 {
 }
 
 #description {
-  font-size: 3.3em;
+  font-size: 2.3em;
   font-weight: 400;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
   line-height: 1.4em;
@@ -60,7 +60,7 @@ h2 {
 
 p, ul {
 	list-style-type: none;
-	font-size: 1.95em;
+	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 1.6em;
 	margin-left: 0;
@@ -112,7 +112,7 @@ footer {
 
 footer p, footer li , footer a{
   margin-right: 15px;
-  font-size: 0.7em;
+  font-size: .8em;
   font-weight: 300;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
   display: inline;
