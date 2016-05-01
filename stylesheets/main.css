@@ -16,7 +16,7 @@ body {
 a, a:visited, a:active {
   text-decoration: none;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: #001f3f;
   line-height: 1.5em;
   margin-top: -4px;
