@@ -20,7 +20,6 @@ a:link, a:visited, a:active {
   color: #001f3f;
   line-height: 1.5em;
   margin-top: -4px;
-  box-shadow: inset 0 -4px 0 #b4e7f8;
 }
 
 a:hover {
@@ -42,9 +41,11 @@ section#summary {
 }
 
 @-webkit-keyframes woop {
-      0%  {   background-color: #FFB74D; } /* Orange*/
-      50%     {   background-color: #84FFFF; } /* Aqua */
-      100%    {   background-color: #FFB74D; } /* Orange */
+      0%    {   background-color: #FFB74D; } /* Orange*/
+      25%   {   background-color: #FFEB3B; } /* Yellow */
+      50%   {   background-color: #84FFFF; } /* Aqua */
+      75%   {   background-color: #FFEB3B; } /* Yellow */
+      100%  {   background-color: #FFB74D; } /* Orange */
       } 
 
 .group {
@@ -101,7 +102,6 @@ p, ul {
   font-size: .6em;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
   padding: 5px;
-  border: 1px solid #ff6000;
   vertical-align: middle;
   margin-top: 20px;
 }
