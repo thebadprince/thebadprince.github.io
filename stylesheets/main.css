@@ -28,7 +28,7 @@ a:hover {
 section#summary {
 	position: relative;
   margin: 80px auto;
-  width: 800px;
+  width: 700px;
 }
 
 .group {
@@ -43,7 +43,7 @@ h1 {
 }
 
 #description {
-  font-size: 2.3em;
+  font-size: 2.2em;
   font-weight: 400;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
   line-height: 1.4em;
