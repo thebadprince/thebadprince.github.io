@@ -30,22 +30,20 @@ a:hover {
 section#summary {
 	position: relative;
   margin: 100px auto;
-  width: 700px;
+  width: 800px;
 }
 
 .wrap {
-            -webkit-animation: woop 100s infinite;
-            -moz-animation: woop 100s infinite;
-            -ms-animation: woop 100s infinite;
-            -o-animation: woop 100s infinite;
-            animation: woop 100s infinite;
+            -webkit-animation: woop 200s infinite;
+            -moz-animation: woop 200s infinite;
+            -ms-animation: woop 200s infinite;
+            -o-animation: woop 200s infinite;
+            animation: woop 200s infinite;
 }
 
 @-webkit-keyframes woop {
       0%  {   background-color: #FF9800; } /* Orange*/
-      25%   {   background-color: #CDDC39; } /* Lime */
       50%     {   background-color: #84FFFF; } /* Aqua */
-      75%     {   background-color: #F06292; } /* Pink */
       100%    {   background-color: #FF9800; } /* Orange */
       } 
 
@@ -68,14 +66,14 @@ h1 {
 
 
 #description {
-  font-size: 2.2em;
+  font-size: 2.4em;
   font-weight: 400;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
   line-height: 1.4em;
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 400;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
 	text-transform: uppercase;
@@ -86,7 +84,7 @@ h2 {
 
 p, ul {
 	list-style-type: none;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 1.6em;
 	margin-left: 0;
