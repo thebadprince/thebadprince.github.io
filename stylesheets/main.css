@@ -18,7 +18,7 @@ a, a:visited, a:active {
   font-weight: 700;
   color: #001f3f;
   line-height: 1.5em;
-  margin-top: -2px;
+  margin-top: -4px;
 }
 
 a:hover {
@@ -27,7 +27,7 @@ a:hover {
 
 section#summary {
 	position: absolute;
-  margin: 80px 300px;
+  margin: 50px 300px;
 }
 
 .group {
@@ -49,7 +49,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: 400;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
 	text-transform: uppercase;
@@ -60,7 +60,7 @@ h2 {
 
 p, ul {
 	list-style-type: none;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 400;
 	line-height: 1.6em;
 	margin-left: 0;
@@ -74,7 +74,7 @@ p, ul {
 }
 
 .collaborators {
-  font-size: .5em;
+  font-size: .6em;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
   padding: 5px;
   border: 1px solid #ff6000;
