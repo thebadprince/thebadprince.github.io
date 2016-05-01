@@ -18,6 +18,7 @@ a, a:visited, a:active {
   font-weight: 700;
   color: #001f3f;
   line-height: 1.5em;
+  margin-top: -2px;
 }
 
 a:hover {
