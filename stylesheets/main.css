@@ -34,19 +34,19 @@ section#summary {
 }
 
 .wrap {
-            -webkit-animation: woop 150s infinite;
-            -moz-animation: woop 150s infinite;
-            -ms-animation: woop 150s infinite;
-            -o-animation: woop 150s infinite;
-            animation: woop 150s infinite;
+            -webkit-animation: woop 100s infinite;
+            -moz-animation: woop 100s infinite;
+            -ms-animation: woop 100s infinite;
+            -o-animation: woop 100s infinite;
+            animation: woop 100s infinite;
 }
 
 @-webkit-keyframes woop {
-      0%  {   background-color: salmon; }
-      25%   {   background-color: gold; }
-      50%     {   background-color: aqua; }
-      75%     {   background-color: BlueViolet; }
-      100%    {   background-color: salmon; }
+      0%  {   background-color: #FF9800; } /* Orange*/
+      25%   {   background-color: #CDDC39; } /* Lime */
+      50%     {   background-color: #84FFFF; } /* Aqua */
+      75%     {   background-color: #F06292; } /* Pink */
+      100%    {   background-color: #FF9800; } /* Orange */
       } 
 
 .group {
