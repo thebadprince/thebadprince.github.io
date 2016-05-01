@@ -145,8 +145,9 @@ footer p, footer li , footer a{
 @media (max-width: 799px) {
 
   section#summary {
-  position: absolute;
+  position: relative;
   margin: 10px 10px;
+  width: 100%;
   }
 
   #logo {
@@ -173,7 +174,7 @@ footer p, footer li , footer a{
 	}
 
   img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
