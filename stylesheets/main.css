@@ -173,11 +173,13 @@ footer p, footer li , footer a{
 		width: 100%;
 	}
 
-  img {
+  img, .image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    padding: 0;
+    position: center;
   }
 
   footer {
