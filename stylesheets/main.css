@@ -174,11 +174,10 @@ footer p, footer li , footer a{
 	}
 
   img, .image {
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
     display: block;
-    margin: 10 0;
-    padding: 10 0;
+    margin: 0 auto;
     position: center;
   }
 
