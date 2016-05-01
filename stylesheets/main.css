@@ -8,8 +8,9 @@ Focus: Readability and Speed.
 
 body {
 	font-family: "fira-sans", Avenir Next,Verdana, sans-serif;
-	color: #333;
+	color: #222;
   font-weight: 400;
+  background-color: #FFF3E0;
 	}
 
 a, a:visited, a:active {
