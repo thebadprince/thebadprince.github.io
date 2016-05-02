@@ -101,9 +101,6 @@ p, ul {
 .collaborators {
   font-size: .8em;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
-  padding: 5px;
-  float: center;
-  margin: 15px;
 }
 
 .image {
@@ -122,6 +119,11 @@ ul li {
 .postscript {
   margin-top: 60px;
   margin-bottom: 100px;
+}
+
+.finish {
+  border: 1px solid #333;
+  padding: 0 10px;
 }
 
 footer {
