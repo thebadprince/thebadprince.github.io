@@ -92,12 +92,6 @@ p, ul {
 	padding: 0;
 }
 
-.work-title {
-  font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
-  font-weight: 400;
-  color: #000;
-}
-
 .collaborators {
   font-size: .8em;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
@@ -110,20 +104,14 @@ p, ul {
   margin: 0 auto;
 }
 
+.finish {
+  border: 1px solid #333;
+  padding: 0 10px;
+}
 
 ul li {
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
-
-.postscript {
-  margin-top: 60px;
-  margin-bottom: 100px;
-}
-
-.finish {
-  border: 1px solid #333;
-  padding: 0 10px;
 }
 
 footer {
