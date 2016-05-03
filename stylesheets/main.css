@@ -88,14 +88,26 @@ p, ul {
 	font-size: 1.4em;
 	font-weight: 400;
 	line-height: 1.6em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 	margin-left: 0;
 	padding: 0;
+}
+
+ol {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+}
+
+ol li, ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .collaborators {
   font-size: .7em;
   font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
-  margin-top: -4px;
 }
 
 .image {
@@ -110,10 +122,16 @@ p, ul {
   padding: 1px 10px;
 }
 
-ul li {
-	margin-top: 20px;
-	margin-bottom: 20px;
+.postscript {
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
+
+.para {
+  margin-left: 30px;
+  font-size: 1.2em;
+}
+
 
 footer {
   margin: 25px auto 50px auto;
