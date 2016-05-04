@@ -18,7 +18,7 @@ a:link, a:visited, a:active {
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
   font-weight: 700;
   color: #003c7a;
-  line-height: 1.6em;
+  line-height: 1.55em;
   margin-top: -4px;
 }
 
@@ -31,26 +31,6 @@ section#summary {
   margin: 100px auto;
   width: 800px;
 }
-
-.wrap {
-            -webkit-animation: woop 100s infinite;
-            -moz-animation: woop 100s infinite;
-            -ms-animation: woop 100s infinite;
-            -o-animation: woop 100s infinite;
-            animation: woop 100s infinite;
-}
-
-@-webkit-keyframes woop {
-      0%    {   background-color: #FFB74D; } /* Orange*/
-      25%   {   background-color: #FFEB3B; } /* Yellow */
-      50%   {   background-color: #84FFFF; } /* Aqua */
-      75%   {   background-color: #FFEB3B; } /* Yellow */
-      100%  {   background-color: #FFB74D; } /* Orange */
-      } 
-
-.group {
-	margin: 3.5em 0em;
-} 
 
 h1 {
   font-size: 2em;
@@ -65,39 +45,38 @@ h1 {
   margin: 2em auto
 }
 
-
-#description {
-  font-size: 2.4em;
-  font-weight: 400;
-  font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
-  line-height: 1.5em;
-}
-
 h2 {
 	font-size: 1.3em;
 	font-weight: 400;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin-top: 20px;
+	margin-top: 60px;
 	color: #009fff;
 }
 
-p, ul {
+.thesis {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+p {
 	list-style-type: none;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-weight: 400;
-	line-height: 1.6em;
+	line-height: 1.55em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 	margin-left: 0;
 	padding: 0;
 }
 
-ol {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  font-size: 1.2em;
+ul, ol {
+  margin-left: 30px;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  font-size: 1em;
+  line-height: 1.6em;
 }
 
 ol li, ul li {
@@ -105,16 +84,30 @@ ol li, ul li {
   margin-bottom: 20px;
 }
 
-.collaborators {
-  font-size: .7em;
-  font-family: "adelle", 'Palatino', 'Palatino Linotype', serif;
+.mobile_ss, .page_ss {
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 360px;
+  display: inline;
 }
 
-.image {
+.competitor_ss {
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 200px;
+  display: inline;
+}
+
+.v2_ss {
   padding: 10px 10px;
   width: 700px;
   display: block;
   margin: 0 auto;
+}
+
+.caption {
+  padding-top: 5px;
+  font-size: .8em;
 }
 
 .box {
@@ -122,19 +115,16 @@ ol li, ul li {
   padding: 1px 10px;
 }
 
-.postscript {
-  margin-top: 60px;
-  margin-bottom: 100px;
-}
-
 footer {
-  margin: 25px auto 50px auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: none;
   text-align: center;
 }
 
 footer p, footer li , footer a:link {
   margin-right: 15px;
-  font-size: .8em;
+  font-size: 0.9em;
   font-weight: 300;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
   display: inline;
@@ -145,6 +135,63 @@ hr {
   border-top: 1px solid #111;
   border-bottom: none;
 }
+
+
+
+
+
+
+/* Media Query */
+@media (max-width: 799px)   {
+
+          section#summary {
+          position: relative;
+          margin: 40px auto;
+          width: 90%;
+          }
+
+          #logo {
+            margin-top: 50px;
+          }
+
+        	h1 {
+        		font-size: 1.3em;
+        	}
+
+          #description {
+            font-size: 2.1em;
+          }
+
+        	h2 {
+        		width: 100%;
+        		font-size: 1em;
+            letter-spacing: 3px;
+        	}
+
+        	p, ul {
+        		font-size: 1.2em;
+        		width: 100%;
+        	}
+
+          .image {
+            width: 100%;
+            height: auto;
+            display: block;
+            padding: 10px 0;
+            margin: 0;
+            position: center;
+          }
+
+          footer {
+            margin-top: 40px;
+          }
+          footer li {
+            display: block;
+            font-size: 1em;
+            margin: 5px 0 20px 0;
+          }
+        }
+
 
 
 /* Fade */
@@ -164,67 +211,6 @@ hr {
   transition-property: color, background-color;
 }
 
-
-/* Media Query */
-@media (max-width: 799px) {
-
-  section#summary {
-  position: relative;
-  margin: 40px auto;
-  width: 90%;
-  }
-
-  #logo {
-    margin-top: 50px;
-  }
-
-	h1 {
-		font-size: 1.3em;
-	}
-
-  #description {
-    font-size: 2.1em;
-  }
-
-	h2 {
-		width: 100%;
-		font-size: 1em;
-    letter-spacing: 3px;
-	}
-
-	p, ul {
-		font-size: 1.2em;
-		width: 100%;
-	}
-
-.image {
-    width: 100%;
-    height: auto;
-    display: block;
-    padding: 10px 0;
-    margin: 0;
-    position: center;
-  }
-
-  .old-app {  
-      display: inline;
-      position: relative;
-  }
-
-  .old-apploi {
-    max-width: 200px;
-    height: auto;
-  }
-
-  footer {
-    margin-top: 40px;
-  }
-  footer li {
-    display: block;
-    font-size: 1em;
-    margin: 5px 0 20px 0;
-  }
-}
 
 /* Text Selection */
 
