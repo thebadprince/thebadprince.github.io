@@ -127,14 +127,19 @@ ol li, ul li {
   margin-bottom: 100px;
 }
 
-footer {
-  margin: 25px auto 50px auto;
+footer, footer ul {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  font-size: 14px;
   text-align: center;
+  width: 100%;
 }
 
 footer p, footer li , footer a:link {
   margin-right: 15px;
-  font-size: .8em;
+  margin-left: 0;
+  padding-left: 0;
   font-weight: 300;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
   display: inline;

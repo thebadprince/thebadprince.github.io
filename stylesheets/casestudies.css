@@ -61,6 +61,10 @@ h3 {
   margin-bottom: 0;
 }
 
+h4 {
+  margin: 50px 0;
+}
+
 .thesis {
   font-size: 1.6em;
   font-weight: 500;
@@ -130,16 +134,20 @@ ol li, ul li {
   padding: 1px 10px;
 }
 
-footer {
+footer, footer ul {
   margin-top: 25px;
   margin-bottom: 50px;
-  margin-left: none;
+  margin-left: 0;
+  font-size: 14px;
   text-align: center;
+  width: 100%;
+  -webkit-padding-start: 0;
 }
 
 footer p, footer li , footer a:link {
   margin-right: 15px;
-  font-size: 0.9em;
+  margin-left: 0;
+  padding-left: 0;
   font-weight: 300;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
   display: inline;
@@ -150,8 +158,6 @@ hr {
   border-top: 1px solid #111;
   border-bottom: none;
 }
-
-
 
 
 
