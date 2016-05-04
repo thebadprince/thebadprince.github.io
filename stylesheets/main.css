@@ -16,7 +16,7 @@ body {
 a:link, a:visited, a:active {
   text-decoration: none;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: #003c7a;
   line-height: 1.6em;
   margin-top: -4px;
@@ -33,20 +33,20 @@ section#summary {
 }
 
 .wrap {
-            -webkit-animation: woop 100s infinite;
-            -moz-animation: woop 100s infinite;
-            -ms-animation: woop 100s infinite;
-            -o-animation: woop 100s infinite;
-            animation: woop 100s infinite;
+  -webkit-animation: woop 100s infinite;
+  -moz-animation: woop 100s infinite;
+  -ms-animation: woop 100s infinite;
+  -o-animation: woop 100s infinite;
+  animation: woop 100s infinite;
 }
 
 @-webkit-keyframes woop {
-      0%    {   background-color: #FFB74D; } /* Orange*/
-      25%   {   background-color: #FFEB3B; } /* Yellow */
-      50%   {   background-color: #84FFFF; } /* Aqua */
-      75%   {   background-color: #FFEB3B; } /* Yellow */
-      100%  {   background-color: #FFB74D; } /* Orange */
-      } 
+  0%    {   background-color: #FFB74D; } /* Orange*/
+  25%   {   background-color: #FFEB3B; } /* Yellow */
+  50%   {   background-color: #84FFFF; } /* Aqua */
+  75%   {   background-color: #FFEB3B; } /* Yellow */
+  100%  {   background-color: #FFB74D; } /* Orange */
+} 
 
 .group {
 	margin: 3.5em 0em;
@@ -62,7 +62,7 @@ h1 {
 #logo {
   width: 100px; 
   display: block;
-  margin: 2em auto
+  margin: 2em auto;
 }
 
 
@@ -240,6 +240,8 @@ hr {
 ::-moz-selection {
   background: #fff; 
 }
+
+
 
 /* Animation */
 
