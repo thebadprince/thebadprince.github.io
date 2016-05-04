@@ -22,7 +22,7 @@
 
   			<p>The business challenge was to rethink <a href="http://Apploi.com" target="_blank">Apploi</a>'s job search app and improve its information architecture while increasing engagement and repeat usage.</p>
 
-			<p>The outcome sought in this project is to create a job app that people would enjoy using at a higher delta than existing players, be able to use anywhere, and do most of the work for them so all they have to do is to get to answering employer questions, which exponentially increases the likelihood of getting a job.</p>
+			<p>The outcome sought in this project is to create a job app that people would enjoy using at a much higher delta than existing players, be able to use anywhere, and do most of the work for them. All users would have to do is to get to answering employer questions which exponentially increases the likelihood of getting a job.</p>
 
 			<h2>FIRST PRINCIPLES EXERCISE</h2>
 
@@ -52,17 +52,18 @@
 
 			<p>One of my strongest convictions is that products should have an opinion, and as designers and product people, we do our job right when we inch it closer to an ideal world through the things that we’re building. In this case, it’s obviously a tall order, but if we can communicate the benefits to both job seekers and employers, we create a healthier ecosystem which would propel higher supply and demand densities.</p>
 
+
 			<h2>DISSECTING THE STATUS QUO</h2>
 
 			<p>The standard model of job apps had these factors:</p>
 
-			<ol>
-				<li>Old-fashioned search</li>
-				<li>Confusing parameters</li>
-				<li>Hard to delineate 3rd party jobs from employers that actually used Apploi enterprise dashboard</li>
-				<li>Convoluted application process</li>
-				<li>Relies on old “currency” which is resume/cover letter</li>
-			</ol>
+				<ol>
+					<li>Old-fashioned search</li>
+					<li>Confusing parameters</li>
+					<li>Hard to delineate 3rd party jobs from employers that actually used Apploi enterprise dashboard</li>
+					<li>Convoluted application process</li>
+					<li>Relies on old “currency” which is resume/cover letter</li>
+				</ol>
 
 			<p>Our main challenge is to move away from this and create an app that will eventually be an order of magnitude better than the existing players, as Slack did for team communication.</p>
 
@@ -81,18 +82,116 @@
 				<li>Gives job seekers detailed information on what the employing store/company is like</li>
 			</ol>
 
+
 			<h2>UNPACKING THE OLD MOBILE APP</h2>
 
-			Screenshots of V1 of app that was two years old:
-
-			<div class="old-app">
-				<img class="old-apploi" src="assets/mobile/m_01.png">
-				<img class="old-apploi" src="assets/mobile/m_02.png">
-				<img class="old-apploi" src="assets/mobile/m_03.png">
-			</div>
+			<p>Screenshots of V1 of app that was two years old:</p>
 
 
-  		</div>
+
+			<p>From reviewing the app’s current functionalities, I open a dialogue of what the most essential parts of the app are supposed to be.</p>
+
+
+
+			<p>Then I break down the current application’s metadata, beginning to merge new ideas onto the old design (and ask questions and do a self-debate) as I go through quick sketches.</p>
+
+
+
+			<h2>STORY-CENTERED DESIGN</h2>	
+
+			<p>Taken from Braden Kowitz, <a href="https://library.gv.com/story-centered-design-hacking-your-brain-to-think-like-a-user-1a1e7d7eb642">Story-Centered Design</a> is imagining yourself from the perspective of the user and what their thoughts and actions are in particular scenarios that would prompt them to user your app.</p>
+
+
+
+			<p>Some onboarding stories were also taken to have an understanding of entry points within the app and how to capture initial data that would make search and apply 10x better, easier, and faster.</p>
+
+			<h2>COMPETITIVE ANALYSIS</h2>
+
+			<p>If we wanted to create a job app that was largely different from existing players in the market, we needed to get analyze their designs and create a version that’s far and away better.</p>
+
+
+
+			<p>These were just some of the few examples, but we essentially mapped out entire flows and pages and scrutinized each design detail and constraint to have a better understanding of what it is that we wanted to build and how we can communicate its difference immediately.</p>
+
+
+			<h2>DECIDING CORE ACTION / FUNCTIONS</h2>
+
+				<p>After some deliberation and cycling through ideas, it was decided that the main focus should be Search, but in a way that the job surfaces them for you by location and relevance at all times—thus increasing the likelihood they find jobs they can apply to.</p>
+
+				<p>With this in mind, the architecture of the main page, navigation, and notifications have to be changed drastically from all fronts, from the sequence, the colors, the images, and the copy, to reflect a feel that’s smart, friendly, supportive, and fun. The objective is to create a job app that works for you, not one you have to incessantly toggle and spend tons of time to search and apply.</p>
+
+				<p>Everything that follows is the result of many rounds of ideation and iterations:</p>
+
+			<h3>Enhanced Main Page</h3>
+
+			<p>The main ideas were to always have search visible at the top in case a user wants to be more granular with their search, but the page always surfaces jobs according to the user’s set parameters. In this case, it works by location.</p>
+
+
+
+
+			<p>Highlights:</p>
+
+				<ul>
+					<li><strong>Store photos.</strong> Strictly having logos or just job titles alienates users and detaches the job from the seeker. But having something as simple as photos that job seekers can browse not only increases leads tenfold, it acts almost as a marketing channel for that brand/company. Even if an applicant isn’t ready to apply today, or let’s say the location is not ideal to them, when a job opening does become available, they would have already built an affinity for that company. This becomes a win-win for employers, job seekers, and our ecosystem.</li>
+
+					<li><strong>Delineating “Quick Apply” with regular “Apply.”</strong> Since the app is nationwide, there will be places where the app is used but there are no jobs that will surface that uses our enterprise dashboard. To alleviate this, the app also aggregates jobs from 3rd party job boards, and can send job seekers to those pages, but also capturing their email/username/password. But simply adding a Quick Apply with an icon “thunder” icon makes the difference more apparent (and more enticing to click on). This exacerbates the issue from the old app that delineates it through “Apploi Jobs” vs. “Non-Apploi Jobs” which is confusing to someone new or not familiar with the app.</li>
+
+					<li><strong>Save as a secondary action.</strong> We understand that users often want to take time to be in the right setting, mindset, and context to answer video questions. Placing it right next to the Quick Apply button helps with this, which saves them under My Jobs. To make this process better, the app would also push notify users of saved jobs, expiring jobs, and even schedule to remind them later.</li>
+
+					<li><strong>Surfacing recommended companies based on user’s data set: searches, onboarding parameters, saved jobs, applied jobs, etc.</strong> This essentially is what creates a stronger feedback loop: the user sees that the system gets better the more actions they do within the app. This investment gives a feeling lock-in, but in a way where we communicate the app works for them and gets smarter overtime. It does this in other parts in the app, but surfacing this in the home section gives it maximum exposure and engagement.</li>
+				</ul>
+
+
+			<h3>A More Helpful and Granular Search Page</h3>
+
+			<p>Being that the app has to do Search really well in order for a user to apply to jobs through the app, it’s imperative that we provide them with options and controls that will help surface relevant jobs, but also not inundate them with choices.</p>
+
+
+
+			<p>Highlights</p>
+
+				<ul>
+					<li><strong>Suggestions Panel.</strong> When a user clicks the Search bar on the upper portion of the app, it has shortcuts to the core markets we’re serving. Our research showed that job titles people search for are only the ones they’re familiar with, thus cancelling out jobs that they fit but don’t search for. To alleviate this, they can browse instantly by market without having to input anything at all.</li>
+
+					<li><strong>History Panel.</strong> The key was to not only have a panel that shows a user’s previous searches but gives them immediate information (such as new jobs within that search) without having to manually go to that page. With less actions involved and more a contextualized history panel, we not only save the user time, we increase the likelihood that the time they use within the app is valuable and gets them closer to applying to jobs, and thus landing a job.</li>
+
+					<li><strong>Granular Filtering.</strong> In the old application, Search was hidden, and filtering was a page further buried in the flow. Having a quick filtering mechanism that gets straight to the core was crucial. Every single job app focused on distance as a factor. The main argument of this design is to use location/transportation APIs that instead track a user’s time of commute from their current residence. Research showed that people didn’t really identify with distance—thinking doesn’t work that way. But when analyzed by median time of commute, it gives them a better idea of how far a job is. Being able to segment by job type, industry, and benefits help tremendously as well.</li>
+				</ul>
+	
+			<h3>Friendlier and Detailed Job Page</h3>
+
+			<p>Job pages in current job apps are laden with archaic descriptions and qualifications, and often doesn’t do a good job communicating the job or the company, which is ironic because the job is the single most important unit in the entire app—the user has already opted-in, you just have to convince them that the tradeoff of their effort is worth it.</p>
+
+
+
+
+			<p>Highlights:</p>
+			<ul>
+				<li>Better job context. What’s the job type? What industry? Where would you work? What’s the company like? Where is it on a map?</li>
+
+				<li>Richer media. If we push employers to add photos and videos to give applicants a better understanding of their company, store, and job, we not only increase applications, we also increase the quality of these leads. We don’t want job pages that have a huge drop-off rate; we want enticing job pages where applicants self-select because they go for the companies they truly identify with.</li>
+
+				<li>Human language. If we can synthesize the core functions of the job in a succinct summary, we give applicants a quicker glimpse if they’re a good fit for the job, which would increase the likelihood they would apply for it.</li>
+			</ul>
+
+
+			<h3>Quick Apply</h3>
+
+			<p>This section gets to the core of Apploi’s “Job DNA” feature which shows the number of questions and question types a user must answer to submit an application. It essentially acts as a pre-screen/initial interview. It creates a more engaged application process, and saves time on both the employer and the job seeker: no cover letters, no multiple interview processes, and the applicant is seen beyond their experience and past credentials.</p>
+
+			<p>Highlights:</p>		
+				<ul>
+					<li>Fully immersive experience. It’s more akin to Snapchat’s video function, which puts content creation at the forefront.</li>
+					<li>Detailed progress. The green progress bar on the top along with navigable questions on the bottom (that hide when answering a question) acts as a lever that encourages applicants to finish their application.</li>
+				</ul>
+
+
+			<h2>ONGOING DESIGN</h2>
+
+				<p>The goal was to provide foundations of the next major version of the app and really nail down the core experience that we wanted users to have.
+
+				<p>Next on this is experimenting with different designs, detailed prototyping, and deciding which features to launch on the roadmap.</p>
+
 
   		<hr/>
 
