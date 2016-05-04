@@ -46,13 +46,19 @@ h1 {
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	font-weight: 400;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	margin-top: 60px;
 	color: #009fff;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .thesis {
@@ -100,9 +106,18 @@ ol li, ul li {
 
 .v2_ss {
   padding: 10px 10px;
-  width: 700px;
+  width: 300px;
   display: block;
   margin: 0 auto;
+}
+
+.v2_set {
+  margin: 20px auto;
+}
+
+.v2_snippet {
+  width: 150px;
+  display: inline;
 }
 
 .caption {
