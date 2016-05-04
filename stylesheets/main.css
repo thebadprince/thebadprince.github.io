@@ -212,6 +212,16 @@ hr {
     position: center;
   }
 
+  .old-app {  
+      display: inline;
+      position: relative;
+  }
+
+  .old-apploi {
+    max-width: 200px;
+    height: auto;
+  }
+
   footer {
     margin-top: 40px;
   }
