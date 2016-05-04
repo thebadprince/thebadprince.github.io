@@ -18,7 +18,7 @@ a:link, a:visited, a:active {
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
   font-weight: 700;
   color: #003c7a;
-  line-height: 1.55em;
+  line-height: 1.6em;
   margin-top: -4px;
 }
 
@@ -74,7 +74,7 @@ p {
 	list-style-type: none;
 	font-size: 1.2em;
 	font-weight: 400;
-	line-height: 1.55em;
+	line-height: 1.6em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 	margin-left: 0;
@@ -141,7 +141,7 @@ footer, footer ul {
   font-size: 14px;
   text-align: center;
   width: 100%;
-  -webkit-padding-start: 0;
+  padding-left: 0;
 }
 
 footer p, footer li , footer a:link {
