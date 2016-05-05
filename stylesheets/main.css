@@ -26,6 +26,10 @@ a:hover {
   color: #ff6000;
 }
 
+strong {
+  font-weight: 500;
+}
+
 section#summary {
 	position: relative;
   margin: 100px auto;
