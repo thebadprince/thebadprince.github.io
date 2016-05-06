@@ -42,6 +42,7 @@
 				<li>Should it be a network? A community? Strictly a utility?</li>
 				<li>What is the user’s investment?</li>
 				<li>How do we provide variability for them to use it again and be of value?</li>
+				<li>Would people even use a mobile app to apply to jobs?</li>
 			</ul>
 
 			<p>The main insight that came from this exercise was—at least in this particular demographic of the hourly worker—<strong>the problem with regular “job search” is that most people don’t know what to look for, or essentially where to begin.</strong> Therefore, Apploi has to make this as frictionless as possible, almost like we’re holding their hand and being a guide in their <a href="http://www.theydontwantyouto.win/" target="_blank">journey to more success.</a></p>
@@ -54,12 +55,12 @@
 				<li>Users being able to apply fast and in a meaningful way, and not go through the bloated, long, and usually no feedback application process.</li>
 			</ol>
 
-			<p>One of my strongest convictions is that products should have an opinion, and as designers and product people, we do our job right when we inch it closer to an ideal world through the things that we’re building. In this case, it’s obviously a tall order, but if we can communicate the benefits to both job seekers and employers, we create a healthier ecosystem which would propel higher supply and demand densities.</p>
+			<p>One of my strongest convictions is that products should have an opinion, and as designers and product people, we do our job right when we inch it closer to an ideal world through the things that we’re building. In this case, it’s obviously a tall order, but if we can communicate the benefits to both job seekers and employers, we create a healthier ecosystem which would propel higher supply and demand from both sides of the market.</p>
 
 
 			<h2>DISSECTING THE STATUS QUO</h2>
 
-			<p>The standard model of job apps had these factors:</p>
+			<p>The standard model of job apps have these factors:</p>
 
 				<ol>
 					<li>Old-fashioned search</li>
@@ -69,13 +70,13 @@
 					<li>Relies on old “currency” which is resume/cover letter</li>
 				</ol>
 
-			<p>Our main challenge is to move away from this and create an app that will eventually be an order of magnitude better than the existing players, as Slack did for team communication.</p>
+			<p>Our main challenge is to move away from this paradigm and create an app that will eventually be an order of magnitude better than the existing players, parallel to what Slack did for team communication.</p>
 
 			<p>New models that were interesting:</p>
 
 			<ol>
-				<li>Nuzzel/Foursquare model that surfaces recommendations based on the initial data set the user gives, and learns from user behavior overtime</li>
-				<li>An onboarding that creates a user identity which would make their search and application process much easier and faster</li>
+				<li>Nuzzel/Foursquare model that surfaces recommendations based on the initial data set the user gives, and learns from their behavior overtime</li>
+				<li>An onboarding that creates an identity which would make their search and application process much easier and faster</li>
 				<li>Granular search filters (which get better overtime as we get more data from employers)</li>
 				<li>Core value proposition:</li>
    					<ul style="font-size:1em">
@@ -107,7 +108,7 @@
 
 			<h2>STORY-CENTERED DESIGN</h2>	
 
-			<p>Taken from Braden Kowitz, <a href="https://library.gv.com/story-centered-design-hacking-your-brain-to-think-like-a-user-1a1e7d7eb642">Story-Centered Design</a> is imagining yourself from the perspective of the user and what their thoughts and actions are in particular scenarios that would prompt them to user your app.</p>
+			<p>Taken from Braden Kowitz, <a href="https://library.gv.com/story-centered-design-hacking-your-brain-to-think-like-a-user-1a1e7d7eb642">Story-Centered Design</a> is imagining yourself from the perspective of the user and what their thoughts and actions are. In this case, it's thinking about what a job seeker goes through when they need a job (before downloading a job app), and what scenarios they would for them to use your app (after they've downloaded the app).</p>
 
 			<img class="page_ss" src="assets/mobile/m_07.png">
 			<img class="page_ss" src="assets/mobile/m_08.png">
@@ -123,7 +124,7 @@
 
 			<h2>COMPETITIVE ANALYSIS</h2>
 
-			<p>If we wanted to create a job app that was largely different from existing players in the market, we needed to get analyze their designs and create a version that’s far and away better.</p>
+			<p>If we wanted to create a job app that was largely different from existing players in the market, we needed to get and analyze their designs and create a version that’s far and away better.</p>
 
 			<img class="competitor_ss" src="assets/mobile/m_16.png">
 			<img class="competitor_ss" src="assets/mobile/m_17.png">
@@ -134,29 +135,29 @@
 
 			<div class="caption">In order: Indeed, Snagajob, Monster, SimplyHired, Glassdoor, Switch.</div></p>
 
-			<p>These were just some of the few examples, but we essentially mapped out entire flows and pages and scrutinized each design detail and constraint to have a better understanding of what it is that we wanted to build and how we can communicate its difference immediately.</p>
+			<p>These were just a few examples, but we essentially mapped out entire flows and pages and scrutinized each design detail and constraint to have a better understanding of what it is that we wanted to build and how we can communicate its difference immediately.</p>
 
 
 			<h2>DECIDING CORE ACTION / FUNCTIONS</h2>
 
-				<p>After some deliberation and cycling through ideas, it was decided that the main focus should be Search, but in a way that the job surfaces them for you by location and relevance at all times—thus increasing the likelihood they find jobs they can apply to.</p>
+				<p>After some deliberation and cycling through ideas, it was decided that the main focus should be Search, but in a way that the job surfaces them for the seeker by location and relevance at all times, thus increasing the likelihood they find jobs they can apply to.</p>
 
-				<p>With this in mind, the architecture of the main page, navigation, and notifications have to be changed drastically from all fronts, from the sequence, the colors, the images, and the copy, to reflect a feel that’s smart, friendly, supportive, and fun. The objective is to create a job app that works for you, not one you have to incessantly toggle and spend tons of time to search and apply.</p>
+				<p>With this in mind, the architecture of the main page, navigation, and notifications have to be changed drastically from all fronts—from the sequence, the colors, the images, and the copy—to reflect a feel that’s smart, friendly, supportive, and fun. The objective is to create a job app that works for you, not one you have to incessantly toggle and spend tons of time to search and apply to jobs.</p>
 
 				<p>Everything that follows is the result of many rounds of ideation and iterations:</p>
 
 			<h3>Enhanced Main Page</h3>
 
-			<p>The main ideas were to always have search visible at the top in case a user wants to be more granular with their search, but the page always surfaces jobs according to the user’s set parameters. In this case, it works by location.</p>
+			<p>The main ideas were to always have search visible at the top in case a user wants to be more granular with their search, but the page always surfaces jobs according to the user’s set parameters. In this case, it works by location and relevance:</p>
 
 			<img class="v2_ss" src="assets/mobile/shots/Home.png">
 
 			<p>Highlights:</p>
 
 				<ul>
-					<li><strong>Store photos.</strong> Strictly having logos or just job titles alienates users and detaches the job from the seeker. But having something as simple as photos that job seekers can browse not only increases leads tenfold, it acts almost as a marketing channel for that brand/company. Even if an applicant isn’t ready to apply today, or let’s say the location is not ideal to them, when a job opening does become available, they would have already built an affinity for that company. This becomes a win-win for employers, job seekers, and our ecosystem.</li>
+					<li><strong>Store photos.</strong> Strictly having logos or just job titles alienates users and detaches the job from the seeker. But having something as simple as photos that job seekers can immediately see increases leads tenfold and also acts as a marketing channel for that brand/company. Even if an applicant isn’t ready to apply today, or let’s say that particular location is not ideal to them, when a job opening does become available, they would have already built an affinity for that company. This becomes a win-win for employers, job seekers, and our ecosystem.</li>
 
-					<li><strong>Delineating “Quick Apply” with regular “Apply.”</strong> Since the app is nationwide, there will be places where the app is used but there are no jobs that will surface that uses our enterprise dashboard. To alleviate this, the app also aggregates jobs from 3rd party job boards, and can send job seekers to those pages, but also capturing their email/username/password. But simply adding a Quick Apply with an icon “thunder” icon makes the difference more apparent (and more enticing to click on). This exacerbates the issue from the old app that delineates it through “Apploi Jobs” vs. “Non-Apploi Jobs” which is confusing to someone new or not familiar with the app.</li>
+					<li><strong>Delineating “Quick Apply” with regular “Apply.”</strong> Since the app is nationwide, there will be places where the app is used but there are no jobs that will surface that was posted using our enterprise dashboard. To alleviate this, the app also aggregates jobs from 3rd party job boards, and can send job seekers to those pages, but also capturing their email/username/password. But simply adding a Quick Apply with a “thunder” icon makes the difference more apparent (and more enticing to click on). This exacerbates the issue from the old app that delineates it through “Apploi Jobs” vs. “Non-Apploi Jobs” which is confusing to someone new or not familiar with the system. Going to 3rd party jobs would also prompt them that they are being sent outside the app, as to avoid confusion and be more transparent.</li>
 
 					<li><strong>Save as a secondary action.</strong> We understand that users often want to take time to be in the right setting, mindset, and context to answer video questions. Placing it right next to the Quick Apply button helps with this, which saves them under My Jobs. To make this process better, the app would also push notify users of saved jobs, expiring jobs, and even schedule to remind them later.</li>
 
