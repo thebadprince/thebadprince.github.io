@@ -82,8 +82,9 @@ h2 {
 	font-weight: 400;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 4px;
-	margin-top: 20px;
+	letter-spacing: 5px;
+	margin-top: 60px;
+  margin-bottom: 40px;
 	color: #000;
 }
 
