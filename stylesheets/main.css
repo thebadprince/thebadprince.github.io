@@ -78,13 +78,13 @@ h1 {
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1.5em;
 	font-weight: 400;
   font-family: "fira-sans", Avenir Next, Verdana, sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 	margin-top: 20px;
-	color: #3d3d3d;
+	color: #000;
 }
 
 p, ul {
