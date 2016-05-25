@@ -199,7 +199,7 @@ hr {
 
 	h2 {
 		width: 100%;
-		font-size: 1em;
+		font-size: 1.3em;
     letter-spacing: 3px;
 	}
 
@@ -207,6 +207,11 @@ hr {
 		font-size: 1.2em;
 		width: 100%;
 	}
+
+  ol {
+    font-size: 1.2em;
+    margin-left: -20px;
+  }
 
   .image {
     width: 100%;
