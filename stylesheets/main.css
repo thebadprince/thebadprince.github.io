@@ -18,7 +18,7 @@ a:link, a:visited, a:active {
   font-family: "fira-sans", sans-serif;
   font-weight: 500;
   color: #003c7a;
-  line-height: 1.6em;
+  line-height: 1.65em;
   margin-top: -4px;
 }
 
@@ -92,7 +92,7 @@ p, ul {
 	list-style-type: none;
 	font-size: 1.3em;
 	font-weight: 400;
-	line-height: 1.6em;
+	line-height: 1.65em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 	margin-left: 0;
@@ -103,6 +103,7 @@ ol {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   font-size: 1.3em;
+  line-height: 1.6em;
 }
 
 ol li, ul li {
