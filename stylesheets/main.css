@@ -7,7 +7,7 @@ Focus: Readability and Speed.
 */
 
 body {
-	font-family: "acumin-pro", sans-serif;
+	font-family: "fira-sans", sans-serif;
 	color: #222;
   font-weight: 400;
   background-color: #FFF3E0;
@@ -15,7 +15,7 @@ body {
 
 a:link, a:visited, a:active {
   text-decoration: none;
-  font-family: "acumin-pro", sans-serif;
+  font-family: "fira-sans", sans-serif;
   font-weight: 500;
   color: #003c7a;
   line-height: 1.6em;
@@ -80,7 +80,7 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	font-weight: 500;
-  font-family: "acumin-pro", sans-serif;
+  font-family: "fira-sans", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-top: 60px;
@@ -147,7 +147,7 @@ footer p, footer li , footer a:link {
   margin-left: 0;
   padding-left: 0;
   font-weight: 300;
-  font-family: "acumin-pro", sans-serif;
+  font-family: "fira-sans", sans-serif;
   display: inline;
   box-shadow: none;
 }
