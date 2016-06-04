@@ -90,7 +90,7 @@ h2 {
 
 p, ul {
 	list-style-type: none;
-	font-size: 1.35em;
+	font-size: 1.3em;
 	font-weight: 400;
 	line-height: 1.6em;
   margin-top: 1.5em;
@@ -102,7 +102,7 @@ p, ul {
 ol {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  font-size: 1.35em;
+  font-size: 1.3em;
 }
 
 ol li, ul li {
