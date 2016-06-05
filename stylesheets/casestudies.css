@@ -18,7 +18,7 @@ a:link, a:visited, a:active {
   font-family: "fira-sans", sans-serif;
   font-weight: 700;
   color: #003c7a;
-  line-height: 1.6em;
+  line-height: 1.65em;
   margin-top: -4px;
 }
 
@@ -69,7 +69,7 @@ h4 {
 }
 
 .thesis {
-  font-size: 1.6em;
+  font-size: 1.65em;
   font-weight: 500;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -91,11 +91,12 @@ ul, ol {
   margin-top: 1.3em;
   margin-bottom: 1.3em;
   font-size: 1em;
-  line-height: 1.6em;
+  line-height: 1.65em;
 }
 
 ol li, ul li {
   margin-top: 20px;
+  margin-left: -2em;
   margin-bottom: 20px;
 }
 
