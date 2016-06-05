@@ -89,7 +89,7 @@ h2 {
 	color: #222;
 }
 
-p, ul {
+p, ul, ol {
 	list-style-type: none;
 	font-size: 1.3em;
 	font-weight: 400;
@@ -100,16 +100,12 @@ p, ul {
 	padding: 0;
 }
 
-ol {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  font-size: 1.3em;
-  line-height: 1.6em;
-}
+
 
 ol li, ul li {
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-left: -2em;
 }
 
 .collaborators {
