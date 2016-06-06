@@ -108,6 +108,7 @@ ul, ol {
 
 ul {
   list-style-type: none;
+  margin-left: none;
 }
 
 ol li, ul li {
