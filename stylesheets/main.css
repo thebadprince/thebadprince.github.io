@@ -108,13 +108,14 @@ ul, ol {
 
 ul {
   list-style-type: none;
-  margin-left: none;
+  margin-left: -2em;
 }
 
 ol li, ul li {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .collaborators {
   font-size: .9em;
   font-family: "adelle", serif;
