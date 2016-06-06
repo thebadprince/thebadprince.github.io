@@ -89,22 +89,27 @@ h2 {
 	color: #222;
 }
 
-p, ul, ol {
-	list-style-type: none;
-	font-size: 1.3em;
-	font-weight: 400;
-	line-height: 1.65em;
+p {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.65em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-	margin-left: 0;
-	padding: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
+ul, ol {
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  font-size: 1.2em;
+  line-height: 1.65em;
 }
 
 ol li, ul li {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
 .collaborators {
   font-size: .9em;
   font-family: "adelle", serif;
