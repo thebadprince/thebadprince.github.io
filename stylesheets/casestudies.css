@@ -43,8 +43,10 @@ h1 {
 #logo {
   width: 100px; 
   display: block;
-  margin: 2em;
+  margin-top: 2em;
   margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -73,7 +75,7 @@ h4 {
   font-family: 'fira-sans', sans-serif;
   font-size: 1.65em;
   font-weight: 500;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
