@@ -106,6 +106,10 @@ ul, ol {
   line-height: 1.65em;
 }
 
+ul {
+  list-style-type: none;
+}
+
 ol li, ul li {
   margin-top: 20px;
   margin-bottom: 20px;
