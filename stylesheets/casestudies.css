@@ -113,6 +113,7 @@ ol li, ul li {
   padding-right: 10px;
   width: 360px;
   display: inline;
+  margin: 0 auto;
 }
 
 .competitor_ss {
@@ -120,6 +121,7 @@ ol li, ul li {
   padding-right: 10px;
   width: 250px;
   display: inline;
+  margin: 0 auto;
 }
 
 .v2_ss {
