@@ -229,7 +229,7 @@ hr {
             margin-top: 40px;
             padding: 0;
           }
-          footer li {
+          footer li, footer a:link {
             display: block;
             font-size: 1em;
             margin: 5px 0 20px 0;
