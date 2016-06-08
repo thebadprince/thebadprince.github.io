@@ -226,6 +226,7 @@ hr {
 
           footer {
             margin-top: 40px;
+            padding: 0;
           }
           footer li {
             display: block;
