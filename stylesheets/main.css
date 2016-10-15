@@ -7,7 +7,7 @@ Focus: Readability and Speed.
 */
 
 body {
-	font-family: "fira-sans", sans-serif;
+	font-family: "Fira Sans", sans-serif;
 	color: #222;
   font-weight: 400;
   background-color: #FFF3E0;
@@ -15,11 +15,9 @@ body {
 
 a:link, a:visited, a:active {
   text-decoration: none;
-  font-family: "fira-sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 500;
   color: #003c7a;
-  line-height: 1.65em;
-  margin-top: -4px;
 }
 
 a:hover {
@@ -37,11 +35,11 @@ section#summary {
 }
 
 .wrap {
-  -webkit-animation: woop 100s infinite;
-  -moz-animation: woop 100s infinite;
-  -ms-animation: woop 100s infinite;
-  -o-animation: woop 100s infinite;
-  animation: woop 100s infinite;
+  -webkit-animation: woop 60s infinite;
+  -moz-animation: woop 60s infinite;
+  -ms-animation: woop 60s infinite;
+  -o-animation: woop 60s infinite;
+  animation: woop 60s infinite;
 }
 
 @-webkit-keyframes woop {
@@ -74,14 +72,14 @@ h1 {
 #description {
   font-size: 2.4em;
   font-weight: 400;
-  font-family: "adelle", serif;
+  font-family: "Roboto Slab", serif;
   line-height: 1.5em;
 }
 
 h2 {
 	font-size: 1.5em;
-	font-weight: 500;
-  font-family: "fira-sans", sans-serif;
+	font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-top: 60px;
@@ -118,7 +116,7 @@ ol li, ul li {
 
 .collaborators {
   font-size: .9em;
-  font-family: "adelle", serif;
+  font-family: "Roboto Slab", serif;
   color: #555;
 }
 
@@ -153,7 +151,7 @@ footer p, footer li , footer a:link {
   margin-right: 15px;
   margin-left: 0;
   font-weight: 300;
-  font-family: "fira-sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   display: inline;
   box-shadow: none;
   padding: 0
