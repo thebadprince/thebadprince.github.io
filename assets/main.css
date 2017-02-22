@@ -81,7 +81,7 @@ a:hover {
 @media max-width: 375px {
 
 	h1 {
-		font-size: 27px
+		font-size: 27px;
 	}
 
 	p {
