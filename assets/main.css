@@ -80,7 +80,7 @@ li {
 
 
 
-@media max-width: 375px {
+@media (max-width: 375px) {
 
 	h1 {
 		font-size: 27px;
