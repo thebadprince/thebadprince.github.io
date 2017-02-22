@@ -77,8 +77,12 @@ li {
 }
 
 
-@media (max-width: 375px) {
+@media all and (max-width: 375px) {
 	h1, h2, p, li {
 		font-size: 27px;
+	}
+
+	body {
+		background-color: black
 	}
 }
