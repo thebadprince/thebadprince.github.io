@@ -11,7 +11,16 @@ a, a:visited {
 
 a:hover {
 	color: #FF6000;
-	border-bottom: 2px solid #FF6000;
+	border-bottom: none;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    -moz-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    -ms-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    -o-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h1 a, h1 a:visited {
@@ -80,6 +89,8 @@ li {
 	padding-bottom: 15px;
 }
 
+/* Text Selection */
+
 ::selection {
 	background: #000000; /* WebKit/Blink Browsers */
 	color: #FF6000;
@@ -90,6 +101,84 @@ li {
 	color: #FF6000;
 }
 
+
+/* Animation */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+/* Media Query */
 
 @media screen and (max-width: 590px) { 
 	h1, h1 a {
