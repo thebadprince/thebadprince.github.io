@@ -96,7 +96,10 @@ li {
 	font-size: 40px; 
 	width: 300px;
 }
-	h2, p, li { 
+	li {
+	font-size: 18px;}
+
+	h2, p { 
 	font-size: 27px; 
 }
 	#start {
