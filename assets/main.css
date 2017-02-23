@@ -15,7 +15,8 @@ a:hover {
 }
 
 h1, h1 a, h1 a:visited {
-	font-family: Heebo-Black;
+	font-family: Heebo;
+	font-weight: 700;
 	font-size: 60px;
 	color: #FF6000;
 	text-transform: uppercase;
@@ -42,14 +43,16 @@ h1 a:hover {
 }
 
 h2 {
-	font-family: Heebo-Light;
+	font-family: Heebo;
+	font-weight: 700;
 	font-size: 40px;
 	color: #000000;
 	text-transform: uppercase;: 
 }
 
 p {
-	font-family: Heebo-Bold;
+	font-family: Heebo;
+	font-weight: 700;
 	font-size: 40px;
 	color: #000000;
 	text-transform: uppercase;
@@ -60,7 +63,8 @@ p {
 }
 
 .light {
-	font-family: Heebo-Light;
+	font-family: Heebo;
+	font-weight: 300;
 }
 
 ul {
