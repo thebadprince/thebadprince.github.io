@@ -81,7 +81,7 @@ li {
 }
 
 
-@media all and (max-width: 375px) {
+@media (max-width: 375px) {
 	h1, h2, p, li {
 		font-size: 27px;
 	}
