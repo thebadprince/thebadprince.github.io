@@ -81,9 +81,17 @@ li {
 }
 
 
-@media (max-width: 375px) {
-	h1, h2, p, li {
-		font-size: 27px;
-	}
+@media screen and (max-width: 590px) { 
+	h1, h1 a {
+	font-size: 40px; 
+	width: 300px;
+}
+	h2, p, li { 
+	font-size: 27px; 
+}
+	#start {
+	margin-top: 150px;
+}
 
 }
+
