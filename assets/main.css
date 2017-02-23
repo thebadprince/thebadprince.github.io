@@ -15,7 +15,7 @@ a:hover {
 }
 
 h1, h1 a, h1 a:visited {
-	font-family: Heebo;
+	font-family: 'Heebo', sans-serif;
 	font-weight: 700;
 	font-size: 60px;
 	color: #FF6000;
@@ -43,7 +43,7 @@ h1 a:hover {
 }
 
 h2 {
-	font-family: Heebo;
+	font-family: 'Heebo', sans-serif;
 	font-weight: 700;
 	font-size: 40px;
 	color: #000000;
@@ -51,7 +51,7 @@ h2 {
 }
 
 p {
-	font-family: Heebo;
+	font-family: 'Heebo', sans-serif;
 	font-weight: 700;
 	font-size: 40px;
 	color: #000000;
@@ -63,7 +63,7 @@ p {
 }
 
 .light {
-	font-family: Heebo;
+	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
 }
 
@@ -74,7 +74,7 @@ ul {
 }
 
 li {
-	font-family: Amiri;
+	font-family: 'Amiri', Georgia, serif;
 	font-size: 40px;
 	color: #000000;
 	padding-bottom: 15px;
