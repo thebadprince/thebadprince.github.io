@@ -80,6 +80,16 @@ li {
 	padding-bottom: 15px;
 }
 
+::selection {
+	background: #000000; /* WebKit/Blink Browsers */
+	color: #FF6000;
+}
+
+::-moz-selection {
+	background: #000000; /* WebKit/Blink Browsers */
+	color: #FF6000;
+}
+
 
 @media screen and (max-width: 590px) { 
 	h1, h1 a {
