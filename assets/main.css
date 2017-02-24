@@ -71,9 +71,18 @@ p {
 	margin-top: 300px;
 }
 
-.light {
-	font-family: 'Heebo', sans-serif;
+.serif {
+	font-family: 'Gentium Book Basic', serif;
 	font-weight: 300;
+  font-size: 46px;
+}
+
+.serif-lettercase {
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 300;
+  font-size: 46px;
+  line-height: 55px;
+  text-transform: none;
 }
 
 ul {
@@ -83,10 +92,10 @@ ul {
 }
 
 li {
-	font-family: 'Amiri', Georgia, serif;
+	font-family: 'Gentium Book Basic', Georgia, serif;
 	font-size: 40px;
 	color: #000000;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 
 /* Text Selection */
