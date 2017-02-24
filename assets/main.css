@@ -81,7 +81,6 @@ p {
   font-family: 'Gentium Book Basic', Georgia, serif;
   font-weight: 300;
   font-size: 46px;
-  line-height: 55px;
   text-transform: none;
 }
 
@@ -201,5 +200,8 @@ li {
 	margin-top: 200px;
 }
 
+  .serif, .serif-lettercase {
+    font-size: 30px;
+  }
 }
 
