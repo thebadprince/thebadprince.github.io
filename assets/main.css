@@ -71,13 +71,12 @@ p {
 	margin-top: 300px;
 }
 
-.serif {
-	font-family: 'Gentium Book Basic', Georgia, serif;
-	font-weight: 300;
-  font-size: 46px;
+.light {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
 }
 
-.serif-lettercase {
+.serif {
   font-family: 'Gentium Book Basic', Georgia, serif;
   font-weight: 300;
   font-size: 46px;
@@ -208,10 +207,6 @@ li {
 }
 
   .serif {
-    font-size: 30px;
-}
-
-  .serif-lettercase {
     font-size: 30px;
     line-height: 42px;
 }
