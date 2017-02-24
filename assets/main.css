@@ -72,13 +72,13 @@ p {
 }
 
 .serif {
-	font-family: 'Gentium Book Basic', serif;
+	font-family: 'Gentium Book Basic', Georgia, serif;
 	font-weight: 300;
   font-size: 46px;
 }
 
 .serif-lettercase {
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Gentium Book Basic', Georgia, serif;
   font-weight: 300;
   font-size: 46px;
   line-height: 55px;
