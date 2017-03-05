@@ -10,12 +10,11 @@ body {
 a, a:visited {
   color: #ff6000;
 	text-decoration: none;
-
 }
 
 a:hover {
-	color: #FF6000;
-  border-bottom: solid 8px #ffffff;
+	color: #ff6000;
+  border-bottom: solid 10px #ffffff;
     transition-property: all;
     transition-duration: 0.2s;
     -webkit-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
