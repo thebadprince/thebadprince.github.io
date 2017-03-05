@@ -8,14 +8,14 @@ body {
 }
 
 a, a:visited {
-  color: #ffffff;
+  color: #ff6000;
 	text-decoration: none;
-  border-bottom: solid 2px #aaaaaa;
+
 }
 
 a:hover {
 	color: #FF6000;
-  border-bottom: solid 10px #ff6000;
+  border-bottom: solid 8px #ffffff;
     transition-property: all;
     transition-duration: 0.2s;
     -webkit-transition-timing-function: cubic-bezier(0.165, 0.63, 0.14, 0.82);
@@ -42,15 +42,15 @@ h1 a:hover {
 }
 
 h2 {
-	font-family: 'Heebo', Helvetica, sans-serif;
-	font-weight: 800;
+	font-family: 'Overpass', Helvetica, sans-serif;
+	font-weight: 700;
 	font-size: 38px;
 	color: #ffffff;
 	text-transform: uppercase;: 
 }
 
 p {
-	font-family: 'Heebo', Helvetica, sans-serif;
+	font-family: 'Overpass', Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 38px;
   line-height: 57px;
@@ -63,12 +63,12 @@ p {
 }
 
 .light {
-  font-family: 'Heebo', Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: 'Overpass', Helvetica, sans-serif;
+  font-weight: 200;
 }
 
 .serif {
-  font-family: 'Gentium Book Basic', Georgia, serif;
+  font-family: 'Caudex', Georgia, serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 55px;
@@ -82,7 +82,7 @@ ul {
 }
 
 li {
-	font-family: 'Gentium Book Basic', Georgia, serif;
+	font-family: 'Caudex', Georgia, serif;
 	font-size: 40px;
 	color: #ffffff;
 	padding-bottom: 25px;
@@ -91,13 +91,13 @@ li {
 /* Text Selection */
 
 ::selection {
-	background: #ffffff; /* WebKit/Blink Browsers */
-	color: #FF6000;
+	background: #ff6000; /* WebKit/Blink Browsers */
+	color: #ffffff;
 }
 
 ::-moz-selection {
-	background: #ffffff; /* WebKit/Blink Browsers */
-	color: #FF6000;
+	background: #ff6000; /* WebKit/Blink Browsers */
+	color: #000000;
 }
 
 
