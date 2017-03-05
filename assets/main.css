@@ -30,6 +30,7 @@ h1, h1 a, h1 a:visited {
 	font-weight: 800;
 	font-size: 150px;
 	color: #ff6000;
+  margin-top: 200px;
 	text-transform: uppercase;
 	text-align: center;
 	border-bottom: none;
@@ -52,13 +53,13 @@ p {
 	font-family: 'Overpass', Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 38px;
-  line-height: 57px;
+  line-height: 61px;
 	color: #ffffff;
 	text-transform: uppercase;
 }
 
 #start {
-	margin-top: 100px;
+	margin-top: 140px;
 }
 
 .light {
