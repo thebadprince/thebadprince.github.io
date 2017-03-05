@@ -69,8 +69,8 @@ p {
 .serif {
   font-family: 'Caudex', Georgia, serif;
   font-weight: 400;
-  font-size: 42px;
-  line-height: 55px;
+  font-size: 36px;
+  line-height: 50px;
   text-transform: none;
 }
 
@@ -82,7 +82,8 @@ ul {
 
 li {
 	font-family: 'Caudex', Georgia, serif;
-	font-size: 40px;
+	font-size: 36px;
+  line-height: 50px;
 	color: #ffffff;
 	padding-bottom: 25px;
 }
