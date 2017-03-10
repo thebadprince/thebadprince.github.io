@@ -45,13 +45,12 @@ h2 {
   font-family: 'Caudex', Georgia, serif;
   font-weight: 700;
   font-size: 60px;
-  color: #ffffff;
   text-align: center;
+  color: #2d2d2d;
 }
 
 .description {
   margin-top: -180px;
-  color: #999999;
 }
 
 h3 {
