@@ -78,7 +78,7 @@ p {
   color: #b9b9b9;
 }
 
-.serif {
+.lowercase {
   font-family: 'Caudex', Georgia, serif;
   font-weight: 400;
   font-size: 36px;
@@ -227,7 +227,7 @@ li {
 	margin-top: 80px;
 }
 
-  .serif {
+  .lowercase {
     font-size: 26px;
     line-height: 41px;
 }
