@@ -81,10 +81,7 @@ img {
 }
 
 .lowercase {
-  font-family: 'Caudex', Georgia, serif;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 50px;
   text-transform: none;
 }
 
@@ -221,8 +218,8 @@ li {
   }
 
   p, li, .lowercase  { 
-	font-size: 22px;
-  line-height: 34px;
+	font-size: 21px;
+  line-height: 32px;
 }
 
   img {
