@@ -3,8 +3,8 @@ body {
 }
 
 .body {
-	margin-left: 10%;
-	margin-right: 10%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 a, a:visited {
@@ -47,7 +47,7 @@ h2 {
   font-weight: 700;
   font-size: 54px;
   text-align: center;
-  color: #2d2d2d;
+  color: #424242;
   margin-top: -160px;
 }
 
@@ -63,7 +63,7 @@ p {
 	font-family: 'Caudex', Georgia, serif;
 	font-weight: 700;
 	font-size: 36px;
-  line-height: 50px;
+  line-height: 1.5em;
 	color: #ffffff;
   text-transform: uppercase;: 
 }
@@ -190,8 +190,8 @@ li {
 @media screen and (max-width: 590px) { 
 	
 .body {
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 90%;
+  margin: auto;
 }
 
 .animated {
@@ -219,7 +219,7 @@ li {
 
   p, li, .lowercase  { 
 	font-size: 21px;
-  line-height: 32px;
+  line-height: 1.65em;
 }
 
   img {
