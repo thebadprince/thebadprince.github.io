@@ -53,6 +53,15 @@ a:hover {
   transition:.5s;
 }
 
+::selection {
+  background: #0000FF;
+  color: #FFFFFF; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #0000FF;
+  color: #FFFFFF; /* Gecko Browsers */
+}
+
 
 /* Small */
 
