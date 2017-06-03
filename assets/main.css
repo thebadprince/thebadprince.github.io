@@ -1,10 +1,11 @@
 body {
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-right: 11rem;
   margin-left: 11rem;
-  margin-bottom: 8rem;
-  font-family: 'Roboto', sans-serif;
+  margin-bottom: 6rem;
+  font-family: 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
   background-color: #FFFFFF;
+  color: #242424;
 }
 
 .brandmark {
@@ -16,7 +17,7 @@ body {
   margin-top: 4rem;
   font-size:  2.2rem;
   line-height: 3.2rem;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
 }
 
 .date {
@@ -55,7 +56,7 @@ a:hover {
 
 /* Small */
 
-@media screen and (min-width: 0em) and (max-width: 40em) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
   html {
     font-size:  87.5%;
   }
@@ -73,7 +74,7 @@ a:hover {
 
 /* Medium */
 
-@media screen and (min-width: 40em) and (max-width: 56em) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   html {
     font-size: 87.5%;
   }
@@ -86,7 +87,7 @@ a:hover {
 
 /* Large */
 
-@media screen and (min-width: 56em) {
+@media screen and (min-width: 1024px) {
   html {
     font-size: 100%;
   }
