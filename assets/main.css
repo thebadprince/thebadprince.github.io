@@ -1,7 +1,7 @@
 body {
   margin-top: 4rem;
-  margin-right: 8rem;
-  margin-left: 8rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
   margin-bottom: 6rem;
   font-family: "ff-zwo-web-pro", 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
   background-color: #FAFAFA;
@@ -128,9 +128,6 @@ a:hover {
   }
   body {
     max-width: 70rem;
-  }
-  .answer {
-    max-width: 50rem;
   }
 }
 
