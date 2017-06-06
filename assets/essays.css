@@ -1,8 +1,15 @@
-body {
+header {
   margin-top: 4rem;
-  margin-right: 10rem;
-  margin-left: 10rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 6rem;
+}
+
+body {
+  margin-top: none;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  margin-bottom: 4rem;
   font-family: "ff-zwo-web-pro", 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
   background-color: #FAFAFA;
   color: #242424;
@@ -19,12 +26,16 @@ a.brandmark:hover {
 }
 
 p {
-  font-size:  1.2rem;
+  font-size: 20px;
   line-height: 2rem;
 }
 
 .date {
   color: #9E9E9E;
+}
+
+.essay {
+  margin-top: 4rem;
 }
 
 ul {
@@ -54,6 +65,11 @@ a:hover {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
+}
+
+footer {
+  margin-top: 8rem;
+  color: #9E9E9E;
 }
 
 ::selection {
