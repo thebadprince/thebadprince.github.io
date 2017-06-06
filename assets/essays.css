@@ -8,7 +8,7 @@ body {
   color: #242424;
 }
 
-.brandmark {
+.brandmark { 
   height: 64px;
   width: 64px;
 }
@@ -19,7 +19,7 @@ a.brandmark:hover {
 }
 
 p {
-  font-size:  1.2em;
+  font-size:  1.2rem;
   line-height: 2rem;
 }
 
@@ -34,7 +34,7 @@ ul {
 }
 
 li {
-  font-size:  1.2em;
+  font-size:  1.2rem;
   line-height: 2rem;
   margin-bottom: .9rem;
 }
