@@ -39,7 +39,7 @@ p {
 }
 
 .lede-img {
-  max-width: 100%;
+  width: 100%;
   margin-right: 0;
   margin-left: 0;
   z-index: 0;
@@ -49,6 +49,11 @@ p {
 h1 {
   font-size: 2rem;
   line-height: 2.5rem;
+}
+
+h2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 h3 {
@@ -66,9 +71,7 @@ blockquote {
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 6rem;
+  padding-left: 20px;
 }
 
 li {
@@ -102,6 +105,7 @@ sup, sup a, sup a:link, sup a:hover, sup a:active, sup a:visited {
 
 .footnotes, .footnotes p, .footnotes a, .footnotes li, .footnotes ol, .footnotes ul {
   font-size: 14px;
+  line-height: 22px;
 }
 
 .footer-hr {
