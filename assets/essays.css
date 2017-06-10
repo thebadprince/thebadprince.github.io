@@ -7,8 +7,9 @@ header {
 
 body {
   margin-top: none;
-  margin-left: 16rem;
-  margin-right: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 750px;
   margin-bottom: 4rem;
   font-family: "ff-zwo-web-pro", 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
   background-color: #FAFAFA;
@@ -25,13 +26,10 @@ a.brandmark:hover {
   background: none;
 }
 
-p {
-  font-size: 20px;
-  line-height: 2rem;
-}
-
 .date {
   color: #9E9E9E;
+  font-size: 16px;
+  margin-top: -20px;
 }
 
 .essay {
@@ -47,8 +45,9 @@ p {
 }
 
 h1 {
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 36px;
+  line-height: 1.5;
+  margin-bottom: none;
 }
 
 h2 {
@@ -57,6 +56,8 @@ h2 {
 }
 
 h3 {
+  font-size: 24px;
+  letter-spacing: 1px;
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
@@ -171,8 +172,8 @@ footer, footer p {
   }
 
   p, blockquote p {
-    font-size: 16px;
-    line-height: 1.65em;
+    font-size: 18px;
+    line-height: 1.6842105263em;
   }
 
   blockquote {
@@ -184,36 +185,65 @@ footer, footer p {
 /* Medium */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  html {
-    font-size: 87.5%;
-  }
+
   body {
     margin-left:  auto;
     margin-right: auto;
-    max-width: 90%;
+    width: 600px;
   }
 
     p, blockquote p {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 18px;
+    line-height: 1.6842105263em;
   }
 
 }
 
 /* Large */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+  body {
+    width: 750px;
+  }
+
+   p, blockquote p {
+    font-size: 21px;
+    line-height: 1.65em;
+  }
+}
+
+/* Extra-Large */
+
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
   html {
     font-size: 100%;
   }
   body {
-    max-width: 70rem;
+    width: 750px;
   }
 
    p, blockquote p {
-    font-size: 20px;
-    line-height: 1.65em;
+    font-size: 21px;
+    line-height: 1.6842105263em;
   }
 }
+
+/* Extra-Large */
+
+@media screen and (min-width: 1400px)  {
+  html {
+    font-size: 100%;
+  }
+  body {
+    max-width: 800px;
+  }
+
+   p, blockquote p {
+    font-size: 21px;
+    line-height: 1.6842105263em;
+  }
+}
+
 
 
