@@ -102,6 +102,11 @@ sup, sup a, sup a:link, sup a:hover, sup a:active, sup a:visited {
   font-size: 12px;
 }
 
+.note {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .footnotes, .footnotes p, .footnotes a, .footnotes li, .footnotes ol, .footnotes ul {
   font-size: 14px;
   line-height: 22px;
