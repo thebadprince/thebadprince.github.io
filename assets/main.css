@@ -5,6 +5,7 @@ body {
   width: 85%;
   margin-bottom: 60px;
   font-family: "ff-zwo-web-pro", -apple-system, system-ui, sans-serif;
+  background-image: url("assets/photos/topography.png");
   background-color: #FAFAFA;
   color: #242424;
 }
