@@ -19,19 +19,21 @@ a.brandmark:hover {
   background: none;
 }
 
-.introduction {
+h1 {
+  font-size: 172px;
+  text-transform: uppercase;
   margin-top: 60px;
-  font-size: 36px;
-  line-height: 1.45;
+  margin-bottom: 20px;
+}
+
+.introduction {
+  font-size: 34px;
+  line-height: 1.5;
   margin-bottom: 100px;
 }
 
-.date {
-  color: #9E9E9E;
-}
-
 h3 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 ul {
@@ -41,10 +43,15 @@ ul {
 }
 
 li {
-  font-size:  18px;
+  font-size:  22px;
   line-height: 1.5;
   margin-bottom: 21px;
 }
+
+.date {
+  color: #9E9E9E;
+}
+
 
 a, a:visited {
   color: #0000FF;
@@ -103,14 +110,24 @@ a:hover {
     margin-right: auto;
     width: 90%;
   }
+
+  .brandmark {
+  height: 48px;
+  width: 48px;
+  }
+
+  h1 {
+    font-size: 91px;
+    margin-bottom: 40px;
+  }
+
   .introduction {
-    font-size:   24px;
+    font-size:  18px;
     line-height: 1.5;
   }
 
-  li {
+  h3, li {
     font-size: 18px;
-    line-height: 1.45;
   }
 }
 
@@ -123,9 +140,17 @@ a:hover {
     max-width: 80%;
   }
 
+  h1 {
+    font-size: 142px;
+  }
+
   .introduction {
     font-size:  28px;
     line-height: 1.5;
+  }
+
+  h3, li {
+    font-size: 19px
   }
 }
 

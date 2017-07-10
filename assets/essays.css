@@ -11,7 +11,7 @@ body {
   margin-left: auto;
   width: 750px;
   margin-bottom: 4rem;
-  font-family: "ff-zwo-web-pro", 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
+  font-family: "ff-zwo-web-pro", -apple-system, system-ui, 'Helvetica Neue', sans-serif;
   background-color: #FAFAFA;
   color: #242424;
 }
