@@ -4,8 +4,8 @@ body {
   margin-left: auto;
   width: 85%;
   margin-bottom: 60px;
-  font-family: "ff-zwo-web-pro", -apple-system, system-ui, sans-serif;
-  background-image: url("https://jomicubol.com/assets/photos/grey_@2x.png");
+  font-family: "ff-zwo-web-pro", Arial, sans-serif;
+  background-image: url("https://jomicubol.com/assets/photos/grey_@2X.png");
   background-color: #FAFAFA;
   color: #242424;
 }
@@ -22,12 +22,11 @@ a.brandmark:hover {
 }
 
 h1 {
-  font-family: "Hind", "Arial Black", sans-serif;
-  font-size: 150px;
-  letter-spacing: -5px;
+  font-family: "Kanit", "Arial Black", sans-serif;
+  font-size: 170px;
   text-transform: uppercase;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .description li {
@@ -42,9 +41,15 @@ h1 {
   margin-bottom: 150px;
 }
 
+.introduction p {
+  margin-top: 0px;
+}
+
+
 h3 {
-  font-family: "Hind", "Arial Black", sans-serif;
-  font-size: 22px;
+  font-family: "Kanit", "Arial Black", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -123,13 +128,12 @@ a:hover {
   }
 
   .brandmark {
-  height: 48px;
-  width: 48px;
+  height: 64px;
+  width: 64px;
   }
 
   h1 {
     font-size: 90px;
-    letter-spacing: -3px;
     line-height: 1em;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -143,6 +147,7 @@ a:hover {
     font-size:  18px;
     line-height: 1.55em;
     margin-top: 60px;
+    margin-bottom: 60px;
   }
 
 
@@ -171,7 +176,6 @@ a:hover {
 
   h1 {
     font-size: 142px;
-    letter-spacing: -5px;
     line-height: 1em;
     margin-top: 60px;
     margin-bottom: 60px
