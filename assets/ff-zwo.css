@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ff-zwo-regular';
+    src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Regular.eot');
+    src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://github.com/thebadprince/thebadprince.github.io/blob/master/assets/fonts/FF-Zwo-Regular.woff2') format('woff2'),
+         url('hhttps://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Regular.woff') format('woff'),
+         url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Regular.ttf') format('truetype'),
+    font-weight: 400;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'ff-zwo-bold';
+    src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Bold.eot');
+    src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('hhttps://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Bold.woff2') format('woff2'),
+         url('https://github.com/thebadprince/thebadprince.github.io/blob/master/assets/fonts/FF-Zwo-Bold.woff') format('woff'),
+         url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Bold.ttf') format('truetype'),
+    font-weight: 700;
+    font-style: normal;
+} 
