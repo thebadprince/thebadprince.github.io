@@ -1,10 +1,12 @@
+@import "https://raw.githubusercontent.com/thebadprince/thebadprince.github.io/blob/master/assets/ff-zwo.css";
+
 body {
   margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
   width: 85%;
   margin-bottom: 60px;
-  font-family: "ff-zwo-web-pro", Arial, sans-serif;
+  font-family: 'ff-zwo-regular', Arial, sans-serif;
   background-image: url("https://jomicubol.com/assets/photos/grey_@2X.png");
   background-color: #FAFAFA;
   color: #242424;
