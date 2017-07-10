@@ -10,8 +10,8 @@ body {
 }
 
 .brandmark {
-  height: 64px;
-  width: 64px;
+  height: 96px;
+  width: 96px;
 }
 
 a.brandmark:hover {
@@ -139,6 +139,11 @@ a:hover {
     margin-right: auto;
     max-width: 80%;
   }
+
+  .brandmark {
+    height: 64px;
+    width: 64px;
+}
 
   h1 {
     font-size: 142px;
