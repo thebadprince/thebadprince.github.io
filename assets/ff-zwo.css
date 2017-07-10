@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'ff-zwo-regular';
+    font-family: 'ff-zwo';
     src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Regular.eot');
     src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Regular.eot?#iefix') format('embedded-opentype'),
          url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/f7831524/assets/fonts/FF-Zwo-Regular.woff2') format('woff2'),
@@ -10,7 +10,7 @@
 } 
 
 @font-face {
-    font-family: 'ff-zwo-bold';
+    font-family: 'ff-zwo';
     src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Bold.eot');
     src: url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Bold.eot?#iefix') format('embedded-opentype'),
          url('https://cdn.rawgit.com/thebadprince/thebadprince.github.io/03ed945f/assets/fonts/FF-Zwo-Bold.woff2') format('woff2'),
