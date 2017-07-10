@@ -26,7 +26,7 @@ h1 {
   letter-spacing: -5px;
   text-transform: uppercase;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
 }
 
 .description li {
@@ -59,10 +59,9 @@ li {
   margin-bottom: 21px;
 }
 
-.date {
+.date, footer {
   color: #9E9E9E;
 }
-
 
 a, a:visited {
   color: #0000FF;
