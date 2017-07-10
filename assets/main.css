@@ -4,7 +4,7 @@ body {
   margin-left: auto;
   width: 85%;
   margin-bottom: 60px;
-  font-family: "ff-zwo-web-pro", 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
+  font-family: "ff-zwo-web-pro", -apple-system, system-ui, sans-serif;
   background-color: #FAFAFA;
   color: #242424;
 }
