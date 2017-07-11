@@ -143,14 +143,14 @@ a:hover {
   }
 
   .description li {
-    font-size: 24px;
+    font-size: 28px;
     width: 100%;
     float: none;
     margin-bottom: 0px;
   }
 
   .introduction {
-    font-size:  18px;
+    font-size:  22px;
     line-height: 1.55em;
     margin-top: 60px;
     margin-bottom: 60px;
