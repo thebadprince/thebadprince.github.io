@@ -1,5 +1,6 @@
 @import "https://raw.githubusercontent.com/thebadprince/thebadprince.github.io/master/assets/ff-zwo.css";
 
+
 body {
   margin-top: 60px;
   margin-right: auto;
@@ -13,9 +14,8 @@ body {
 }
 
 .brandmark {
-  height: 96px;
-  width: 96px;
-  position: center;
+  height: 64px;
+  width: 64px;
 }
 
 a.brandmark:hover {
@@ -25,32 +25,33 @@ a.brandmark:hover {
 
 h1 {
   font-family: "Kanit", "Arial Black", sans-serif;
-  font-size: 170px;
+  font-size: 140px;
+  line-height: 1em;
   text-transform: uppercase;
-  margin-top: 0px;
+  margin-top: 40px;
   margin-bottom: 0px;
+  width: 75%;
 }
 
 .description li {
-  font-size: 55px;
-  line-height: 1em;
+  font-size: 48px;
+  line-height: 1.2em;
+  width: 25%;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 120px;
 }
 
 .introduction {
-  font-size: 34px;
-  line-height: 1.45em;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  font-size: 32px;
+  line-height: 1.5em;
+  margin-bottom: 80px;
+  width: 75%;
 }
-
-.introduction p {
-  margin-top: 0px;
-}
-
 
 h3 {
   font-family: "Kanit", "Arial Black", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -58,13 +59,13 @@ h3 {
 ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 
 li {
-  font-size:  22px;
+  font-size:  18px;
   line-height: 1.5;
-  margin-bottom: 21px;
+  margin-bottom: 24px;
 }
 
 .date, footer {
@@ -117,8 +118,6 @@ a:hover {
 }
 
 
-
-
 /* Small */
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
@@ -130,8 +129,8 @@ a:hover {
   }
 
   .brandmark {
-  height: 64px;
-  width: 64px;
+    height: 64px;
+    width: 64px;
   }
 
   h1 {
@@ -139,10 +138,15 @@ a:hover {
     line-height: 1em;
     margin-top: 60px;
     margin-bottom: 40px;
+    width: 100%;
+    float: none;
   }
 
   .description li {
     font-size: 24px;
+    width: 100%;
+    float: none;
+    margin-bottom: 0px;
   }
 
   .introduction {
@@ -150,15 +154,17 @@ a:hover {
     line-height: 1.55em;
     margin-top: 60px;
     margin-bottom: 60px;
+    width: 100%;
+    float: none;
   }
 
-
-  ul {
-    margin-bottom: 60px;
+  .links, .writing, .favorites {
+  float: none;
+  width: 100%;
   }
 
   h3, li {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -180,16 +186,23 @@ a:hover {
     font-size: 142px;
     line-height: 1em;
     margin-top: 60px;
-    margin-bottom: 60px
+    margin-bottom: 60px;
+    width: 100%;
+    float: none;
   }
 
   .description li {
     font-size: 48px;
+    margin-bottom: 0px;
+    width: 100%;
+    float: none;
   }
 
   .introduction {
     font-size:  28px;
     line-height: 1.5;
+    width: 100%;
+    float: none;
   }
 
   .new-strong {
