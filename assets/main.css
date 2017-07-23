@@ -54,7 +54,7 @@ h2 {
   display: block;
   width: 80%;
   margin: 100px auto;
-  vertical-align: middle;
+  transition-timing-function: ease-in-out;
 }
 
 h3 {
