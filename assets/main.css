@@ -81,7 +81,7 @@ li {
 }
 
 .date {
-  color: #9E9E9E;
+  color: #FFFFFF;
 }
 
 
@@ -151,6 +151,7 @@ a:hover {
   h1 {
     font-size: 50px;
     line-height: 1em;
+    margin-top: 80px;
     margin-bottom: 20px;
   }
 
@@ -190,6 +191,7 @@ a:hover {
   h1 {
     font-size: 100px;
     line-height: 1em;
+    margin-top: 100px;
     margin-bottom: 20px;
   }
 
