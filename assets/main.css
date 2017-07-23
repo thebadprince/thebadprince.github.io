@@ -9,10 +9,10 @@ body {
   font-family: 'Caudex', "ff-zwo-web-pro", 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
   color: #FFFFFF;
   background: #0000FF; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#0000FF, #111111); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#0000FF, #111111); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(r#0000FF, #111111); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#0000FF, #111111); /* Standard syntax */
+  background: -webkit-linear-gradient(#0000FF, #000000); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0000FF, #000000); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(r#0000FF, #000000); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0000FF, #000000); /* Standard syntax */
 }
 
 .brandmark {
