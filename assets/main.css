@@ -1,21 +1,25 @@
-@import "https://raw.githubusercontent.com/thebadprince/thebadprince.github.io/master/assets/ff-zwo.css";
 
 body {
   margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
-  width: 85%;
-  margin-bottom: 60px;
-  font-family: 'ff-zwo-web-pro', Arial, sans-serif;
-  background-image: url("https://jomicubol.com/assets/photos/grey_@2X.png");
-  background-color: #FAFAFA;
-  color: #242424;
+  width: 1100px;
+  max-width: 90%;
+  margin-bottom: 180px;
+  font-family: 'Caudex', "ff-zwo-web-pro", 'Roboto', -apple-system, system-ui, 'Helvetica Neue', sans-serif;
+  color: #FFFFFF;
+  background: #0000FF; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#0000FF, #111111); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0000FF, #111111); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(r#0000FF, #111111); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0000FF, #111111); /* Standard syntax */
 }
 
 .brandmark {
   height: 96px;
   width: 96px;
-  position: center;
+  display: block;
+  margin: 0 auto;
 }
 
 a.brandmark:hover {
@@ -24,63 +28,72 @@ a.brandmark:hover {
 }
 
 h1 {
-  font-family: "Kanit", "Arial Black", sans-serif;
-  font-size: 170px;
+  font-size: 172px;
+  font-family: 'Kanit', Arial, sans-serif;
+  text-align: center;
+  line-height: 1em;
   text-transform: uppercase;
-  margin-top: 0px;
+  margin-top: 60px;
   margin-bottom: 0px;
 }
 
-.description li {
-  color: #616161;
-  font-size: 55px;
+h2 {
+  text-align: center;
+  font-size: 58px;
+  margin-top: 20px;
   line-height: 1em;
 }
 
 .introduction {
-  font-size: 34px;
-  line-height: 1.45em;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  font-size: 52px;
+  line-height: 1.35;
+  margin-bottom: 120px;
 }
 
-.introduction p {
-  margin-top: 0px;
+.photo {
+  display: block;
+  width: 80%;
+  margin: 100px auto;
+  vertical-align: middle;
 }
-
 
 h3 {
-  font-family: "Kanit", "Arial Black", sans-serif;
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 22px;
+  font-family: 'Kanit', Arial, sans-serif;
   text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.introduction h3 {
+  margin-bottom: -30px;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 
 li {
-  font-size:  22px;
+  font-size:  28px;
   line-height: 1.5;
   margin-bottom: 21px;
 }
 
-.date, footer {
+.date {
   color: #9E9E9E;
 }
 
+
 a, a:visited {
-  color: #0000FF;
+  color:  #ff0000;
   text-decoration: none;
   font-weight: 700;
 }
 
 a:hover {
-  color: #FFFFFF;
-  background: #0000FF;
+  color: #000000;
+  background: #00ff00;
   text-decoration: none;
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -111,7 +124,6 @@ a:hover {
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
@@ -132,32 +144,34 @@ a:hover {
   }
 
   .brandmark {
-  height: 64px;
-  width: 64px;
+  height: 48px;
+  width: 48px;
   }
 
   h1 {
-    font-size: 90px;
+    font-size: 50px;
     line-height: 1em;
-    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+
+  .photo {
+    margin-top: 40px;
     margin-bottom: 40px;
   }
 
-  .description li {
-    font-size: 24px;
-  }
-
   .introduction {
-    font-size:  18px;
-    line-height: 1.55em;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    font-size:  20px;
+    line-height: 1.6;
   }
 
-
-  ul {
-    margin-bottom: 60px;
-  }
+  .introduction h3 {
+    margin-bottom: 0px;
+}
 
   h3, li {
     font-size: 18px;
@@ -166,27 +180,22 @@ a:hover {
 
 /* Medium */
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     margin-left:  auto;
     margin-right: auto;
     max-width: 80%;
   }
 
-  .brandmark {
-    height: 64px;
-    width: 64px;
-}
-
   h1 {
-    font-size: 142px;
+    font-size: 100px;
     line-height: 1em;
-    margin-top: 60px;
-    margin-bottom: 60px
+    margin-bottom: 20px;
   }
 
-  .description li {
-    font-size: 48px;
+  h2 {  
+    font-size: 36px;
+    margin-top: 0px;
   }
 
   .introduction {
@@ -194,9 +203,10 @@ a:hover {
     line-height: 1.5;
   }
 
-  .new-strong {
-    font-size: 24px;
-  }
+
+  .introduction h3 {
+  margin-bottom: 0px;
+}
 
   h3, li {
     font-size: 19px
@@ -205,7 +215,7 @@ a:hover {
 
 /* Large */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   html {
     font-size: 100%;
   }
