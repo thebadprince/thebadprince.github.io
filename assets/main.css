@@ -103,7 +103,7 @@ a:hover {
 }
 
 ::selection {
-  background: #0000FF;
+  background: #00ff00;
   color: #FFFFFF; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
