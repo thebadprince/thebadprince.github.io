@@ -1,0 +1,144 @@
+body {
+  background-color: #F9F9F9;
+  border-left: solid .5rem #D10000;
+  font-size: 16px;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.wrapper {
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.introduction {
+margin-top: 3.815rem;
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 5.96rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  padding-top: 0;
+  line-height: 3.815rem;
+  /* position: fixed;
+  top: 0;
+	left: 0;
+	right: 0;
+	height: 0; */
+	text-align: center;
+}
+
+h2 {
+  margin-top: 6.25rem;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+a:link,
+a:visited {
+  color: #D10000;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: solid 2px #D10000;
+}
+
+/********************
+Media Queries
+********************/
+
+@media (min-width: 320px){
+  .wrapper {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.75px;
+    line-height: 2.75rem;
+  }
+
+  h2 {
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.75px;
+    line-height: 0.8rem;
+  }
+
+  p {
+    font-family: Times, serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.25px;
+    line-height: 1.94rem;
+  }
+
+  .motto {
+    /* font-size: 1.953rem;
+    line-height: 2.5rem; */
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  ul,
+  ol {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
+    margin: 1.5rem 0;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    width: 55%;
+    /* text-align: left;
+    margin-left: 4.768rem; */
+  }
+
+  h1 {
+    font-size: 6.25rem;
+    margin-top: 4.768rem;
+    /* text-align: left; */
+  }
+
+  .introduction {
+    margin-top: 3.815rem;
+  }
+
+  p {
+    font-size: 1.953rem;
+    line-height: 2.441rem;
+  }
+
+  li {
+    font-size: 1.563rem;
+    line-height: 2.441rem;
+    margin: 2rem 0;
+  }
+
+
+}
