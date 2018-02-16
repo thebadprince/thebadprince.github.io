@@ -2,18 +2,20 @@
 <html>
 	<head>
 	<title>Jomi Cubol</title>
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
 	</head>
     <body>
 
       <header>
         <h1>Jomi Cubol</h1>
-        <nav>
-          <ul>
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site.baseurl}}/essays.html">Essays</a></li>
-        </nav>
+        {% include nav.html %}
       </header>
       {{content}}
+
+      <footer>
+        {% include nav.html %}
+        <p>&copy; 2018 Jomi Cubol</p>
+      </footer>
 
   	</body>
   </html>
