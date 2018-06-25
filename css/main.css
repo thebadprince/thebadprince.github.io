@@ -323,6 +323,7 @@ h2, h3, p, li {
 
   li.huge_link {
     font-size: 28px;
+    margin-bottom: 10px;
   }
 
   .section_bottom {
