@@ -326,7 +326,7 @@ h2, h3, p, li {
 
   .section_bottom {
     margin-top: 180px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 
   .top_header {
@@ -347,4 +347,12 @@ h2, h3, p, li {
     font-size: 30px;
   }
 
+  .section_bottom_nav {
+    margin-top: 180px;
+    margin-bottom: 60px;
+  }
+
+  .section_bottom_page {
+    margin-bottom: 40px;
+  }
 }
