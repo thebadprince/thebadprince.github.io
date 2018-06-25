@@ -284,14 +284,15 @@ h2, h3, p, li {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 98px;
+    line-height: 1;
     margin-top: 80px;
     margin-bottom: 0;
   }
 
   h2 {
-    font-size: 20px;
-    margin-top: 0;
+    font-size: 21px;
+    margin-top: 10px;
   }
 
   h3 {
@@ -311,7 +312,7 @@ h2, h3, p, li {
   }
 
   .big {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.5;
   }
 
