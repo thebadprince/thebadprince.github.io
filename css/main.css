@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-family: Barlow;
+  font-family: 'Barlow';
   font-size: 150px;
   font-weight: 900;
   font-style: normal;
@@ -23,7 +23,7 @@ h1 a, h1 a:visited {
 
 h2 {
   margin-top: 0;
-  font-family: IBMPlexMono;
+  font-family: 'IBMPlexMono', monospace;;
   font-size: 48px;
   font-weight: bold;
   font-style: normal;
@@ -43,7 +43,7 @@ h2 a:hover {
 }
 
 h3 {
-  font-family: Barlow;
+  font-family: 'Barlow';
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -71,7 +71,7 @@ h3 {
 }
 
 p {
-  font-family: IBMPlexMono;
+  font-family: 'IBMPlexMono', monospace;;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -87,7 +87,7 @@ ul {
 }
 
 li.huge_link {
-  font-family: Barlow, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -109,7 +109,7 @@ li a:hover {
 }
 
 footer p {
-  font-family: IBMPlexMono, monospace;
+  font-family: 'IBMPlexMono', monospace;
   font-size: 12px;
   font-style: normal;
   font-stretch: normal;
@@ -124,7 +124,7 @@ h2, h3, p, li {
 }
 
 .page_title {
-  font-family: Barlow, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 40px;
   font-weight: bold;
   font-style: normal;
@@ -135,7 +135,7 @@ h2, h3, p, li {
 }
 
 .title {
-  font-family: Barlow, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 600;
   color: #ffffff;
   font-size: 34px;
@@ -151,7 +151,7 @@ h2, h3, p, li {
 }
 
 .big {
-  font-family: Barlow, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 28px;
   font-weight: 600;
   font-style: normal;
@@ -195,7 +195,7 @@ h2, h3, p, li {
 }
 
 .meta {
-  font-family: IBMPlexMono, monospace;
+  font-family: 'IBMPlexMono', monospace;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -209,7 +209,7 @@ h2, h3, p, li {
 }
 
 .project-link a, .project-link a:visited {
-  font-family: IBMPlexMono, monospace;
+  font-family: 'IBMPlexMono', monospace;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -229,7 +229,7 @@ h2, h3, p, li {
 }
 
 .home_link {
-  font-family: Barlow, sans-serif;
+  font-family: 'Barlow', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 28px;
@@ -247,7 +247,7 @@ h2, h3, p, li {
 }
 
 .nav li {
-  font-family: Barlow;
+  font-family: 'Barlow';
   font-size: 18px;
   font-weight: 600;
   font-style: normal;
