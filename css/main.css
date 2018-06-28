@@ -269,6 +269,22 @@ h2, h3, p, li {
 
 /*  Media Queries ------------- */
 
+@media (min-width: 2560px) {
+  html {
+    margin-left: 700px;
+    /* margin-right: auto; */
+  }
+}
+
+
+@media (max-width: 1400px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 @media (max-width: 1024px) {
 
 }
