@@ -263,7 +263,7 @@ h2, h3, p, li {
   display: block;
 }
 
-.link_active {
+.link_active li a, .link_active li a:visited {
   color: #b39759;
 }
 
