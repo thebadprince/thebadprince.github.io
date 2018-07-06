@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-  font-family: 'Barlow';
-  font-size: 150px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 130px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -13,6 +13,7 @@ h1 {
   letter-spacing: normal;
   color: #b39759;
   text-transform: uppercase;
+  margin-top: 160px;
   margin-bottom: 0;
 }
 
@@ -24,7 +25,7 @@ h1 a, h1 a:visited {
 h2 {
   margin-top: 0;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 48px;
+  font-size: 52px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -169,11 +170,11 @@ h2, h3, p, li {
 }
 
 .section {
-  margin-top: 120px;
+  margin-top: 160px;
 }
 
 .section_med {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .section_sm {
@@ -229,7 +230,7 @@ h2, h3, p, li {
 }
 
 .home_link {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 28px;
@@ -278,12 +279,12 @@ h2, h3, p, li {
 
 
 @media (max-width: 1440px) {
-  /* img {
+  img {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    } */
+    }
 }
 
 @media (max-width: 1024px) {
@@ -306,9 +307,9 @@ h2, h3, p, li {
   }
 
   h1 {
-    font-size: 98px;
+    font-size: 80px;
     line-height: 1;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 0;
   }
 
@@ -322,12 +323,12 @@ h2, h3, p, li {
     margin-bottom: 20px;
   }
 
-  /* img {
+  img {
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-  } */
+  }
 
   .title {
     font-size: 32px;
