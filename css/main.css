@@ -309,7 +309,7 @@ h2, h3, p, li {
   h1 {
     font-size: 86px;
     line-height: 1;
-    margin-top: 200px;
+    margin-top: 220px;
     margin-bottom: 0;
   }
 
@@ -354,6 +354,10 @@ h2, h3, p, li {
   li.huge_link {
     font-size: 28px;
     margin-bottom: 10px;
+  }
+
+  .section {
+    margin-top: 100px;
   }
 
   .section_bottom {
