@@ -81,8 +81,8 @@ h2, h3, p, li {
 /*  Media Queries ------------- */
 
 @media (max-width: 480px) {
-  body, h1, p, li, footer, {
-    margin-left: 10px;
+  body {
+    margin-left, margin-right: 20px;
     width: 95%;
   }
 
@@ -92,7 +92,7 @@ h2, h3, p, li {
     margin-bottom: 0;
   }
 
-  p {
+  p, ul li, {
     font-size: 16px;
     line-height: 1.6em;
   }
