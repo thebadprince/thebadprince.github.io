@@ -7,15 +7,15 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 58px;
-  font-weight: 900;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #DEA74F;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 0;
 }
 
@@ -33,6 +33,10 @@ p {
 a, li a {
   color: #DEA74F;
   text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid;
 }
 
 .section_summary {
@@ -85,7 +89,7 @@ footer p {
   }
 
   h1 {
-    font-size: 46px;
+    font-size: 64px;
   }
 
   p {
