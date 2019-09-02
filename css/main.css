@@ -27,7 +27,7 @@ p {
   font-stretch: normal;
   line-height: 1.75;
   letter-spacing: normal;
-  color: #cccccc;
+  color: #DDDDDD;
 }
 
 a, li a {
@@ -66,7 +66,7 @@ li {
   font-size: 18px;
   font-weight: 300;
   line-height: 2em;
-  color: #ccc;
+  color: #DDDDDD;
 }
 
 li a:hover {
@@ -77,7 +77,7 @@ footer p {
   font-family: 'Roboto Mono', monospace;
   font-size: 12px;
   line-height: 1.5;
-  color: #cccccc;
+  color: #DDDDDD;
 }
 
 
