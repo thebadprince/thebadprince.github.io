@@ -1,11 +1,14 @@
 body {
   background-color: #000;
-  margin-left: 60px;
+  width: 640px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 64px;
+  font-size: 58px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -13,7 +16,6 @@ h1 {
   letter-spacing: normal;
   color: #DEA74F;
   text-transform: uppercase;
-  margin-top: 100px;
   margin-bottom: 0;
 }
 
@@ -73,27 +75,20 @@ footer p {
   color: #cccccc;
 }
 
-h2, h3, p, li {
-  width: 600px;
-}
-
 
 /*  Media Queries ------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width:480px){
   body {
-    margin-left, margin-right: 20px;
-    width: 95%;
+    padding-top: 50px;
+    width: 90%;
   }
 
   h1 {
-    font-size: 52px;
-    margin-top: 50px;
-    margin-bottom: 0;
+    font-size: 46px;
   }
 
-  p, ul li, {
+  p {
     font-size: 16px;
-    line-height: 1.6em;
   }
 }
