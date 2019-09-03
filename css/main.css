@@ -80,6 +80,7 @@ footer p {
 
   body {
     padding: 25px 15px;
+    margin: 0;
   }
 
   h1 {
@@ -89,5 +90,9 @@ footer p {
 
   p {
     font-size: 16px;
+  }
+
+  .summary {
+    margin-top: 50px;
   }
 }
