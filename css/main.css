@@ -76,11 +76,10 @@ footer p {
 
 /*  Media Queries ------------- */
 
-@media (max-width:480px){
+@media (max-width: 640px){
 
   body {
-    padding-top: 25px;
-    width: 95%;
+    padding: 25px 15px;
   }
 
   h1 {
@@ -91,15 +90,4 @@ footer p {
   p {
     font-size: 16px;
   }
-
-
-}
-
-@media (max-width:768px) {
-
-  body {
-    width: 90%;
-  }
-
-
 }
