@@ -6,28 +6,21 @@ body {
   margin-right: auto;
 }
 
-h1 {
-  font-family: 'Russo One', sans-serif;
-  font-size: 58px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #DEA74F;
-  text-transform: none;
-  margin-bottom: 0;
-}
-
 p {
   font-family: 'Roboto Mono', monospace;
   font-size: 18px;
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.75;
-  letter-spacing: normal;
-  color: #DDDDDD;
+  color: #DEDEDE;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 58px;
+  color: #DEA74F;
+  font-weight: normal;
+  text-transform: none;
+  margin-bottom: 0;
 }
 
 a, li a {
@@ -41,7 +34,7 @@ a:hover {
 }
 
 .summary {
-  margin-top: 60px;
+  margin-top: 75px;
 }
 
 .contact {
@@ -91,12 +84,11 @@ footer p {
   }
 
   h1 {
-    font-size: 64px;
+    font-size: 68px;
+    line-height: 1;
   }
 
-  p {
-    font-size: 16px;
-  }
+
 }
 
 @media (max-width:768px) {
