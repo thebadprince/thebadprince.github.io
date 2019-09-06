@@ -6,12 +6,12 @@ html { font-family: 'Inter', sans-serif; }
 
 
 body {
-  background-color: #000;
+  background-color: #111;
   max-width: 640px;
   padding-top: 75px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Inter', monospace;
+  font-family: 'Inter', sans-serif;
 }
 
 p {
