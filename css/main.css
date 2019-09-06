@@ -52,7 +52,7 @@ a:hover {
 }
 
 .contact {
-  margin-top: 75px;
+  margin-top: 50px;
   font-size: 14px;
   margin-bottom: 50px;
 }
@@ -106,6 +106,10 @@ footer p {
   }
 
   p {
+    font-size: 18px;
+  }
+
+  li {
     font-size: 18px;
   }
 
