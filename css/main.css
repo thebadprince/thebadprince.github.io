@@ -8,7 +8,7 @@ html { font-family: 'Inter', sans-serif; }
 body {
   background-color: #111;
   max-width: 640px;
-  padding-top: 75px;
+  margin-top: 125px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Inter', sans-serif;
@@ -16,17 +16,21 @@ body {
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.75;
+  font-size: 20px;
+  line-height: 1.5;
   color: #DEDEDE;
 }
 
 h1 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 58px;
+  font-size: 64px;
   color: #DEA74F;
-  text-transform: none;
-  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 40px;
+  color: #DEDEDE;
 }
 
 a, li a {
@@ -37,6 +41,10 @@ a, li a {
 
 a:hover {
   border-bottom: 2px solid;
+}
+
+.title {
+  margin-bottom: 75px;
 }
 
 .summary {
@@ -56,15 +64,14 @@ a:hover {
 }
 
 ul, li {
-  list-style-type: none;
+  list-style-type: square;
   padding: 0;
 }
 
 li {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
   line-height: 2em;
-  color: #DDDDDD;
+  color: #DEDEDE;
 }
 
 li a:hover {
@@ -72,7 +79,7 @@ li a:hover {
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   color: #DDDDDD;
 }
@@ -92,8 +99,13 @@ footer p {
     line-height: 1;
   }
 
+  h2 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .summary {
