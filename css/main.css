@@ -23,7 +23,8 @@ p {
 
 h1 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 64px;
+  line-height: 1;
+  font-size: 68px;
   color: #DEA74F;
 }
 
@@ -48,7 +49,7 @@ a:hover {
 }
 
 .summary {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .contact {
@@ -96,7 +97,7 @@ footer p {
   }
 
   h1 {
-    font-size: 68px;
+    font-size: 64px;
     line-height: 1;
   }
 
@@ -114,6 +115,6 @@ footer p {
   }
 
   .summary {
-    margin-top: 50px;
+    margin-top: 25px;
   }
 }
