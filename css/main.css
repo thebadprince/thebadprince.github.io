@@ -77,15 +77,12 @@ li {
   line-height: 1.4;
   margin-bottom: 20px;
   color: #DEDEDE;
-  list-style-type: circle;
 }
 
 
 li a:hover {
   color: #DEA74F;
 }
-
-
 
 
 footer p {
