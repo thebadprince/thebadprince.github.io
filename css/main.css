@@ -17,7 +17,7 @@ body {
 
 p {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #DEDEDE;
 }
 
@@ -64,21 +64,29 @@ a:hover {
   margin-bottom: 50px;
 }
 
-ul {
-  list-style-type: square;
-  padding: 0;
+.quote {
+  margin-bottom: 0;
+}
+
+.quote-source {
+  margin-top: 0;
 }
 
 li {
   font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 15px;
+  line-height: 1.4;
+  margin-bottom: 20px;
   color: #DEDEDE;
+  list-style-type: circle;
 }
+
 
 li a:hover {
   color: #DEA74F;
 }
+
+
+
 
 footer p {
   font-size: 14px;
