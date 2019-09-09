@@ -64,14 +64,15 @@ a:hover {
   margin-bottom: 50px;
 }
 
-ul, li {
+ul {
   list-style-type: square;
   padding: 0;
 }
 
 li {
   font-size: 20px;
-  line-height: 2em;
+  line-height: 1.5;
+  margin-bottom: 15px;
   color: #DEDEDE;
 }
 
