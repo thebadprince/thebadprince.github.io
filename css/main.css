@@ -75,13 +75,20 @@ a:hover {
 li {
   font-size: 20px;
   line-height: 1.4;
-  margin-bottom: 20px;
   color: #DEDEDE;
 }
 
-
 li a:hover {
   color: #DEA74F;
+}
+
+.contact li {
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+
+.beliefs li {
+  margin-bottom: 20px;
 }
 
 
