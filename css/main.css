@@ -92,9 +92,9 @@ h2.motto {
 
 h2.title {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 80px;
+  font-size: 72px;
   color: #FFFFFF;
-  margin: 20px 0 50px;
+  margin: 40px 0 50px;
   text-align: center;
 }
 
@@ -169,7 +169,6 @@ footer p {
     max-width: 1600px;
   }
 }
-
 
 
 @media (max-width: 1200px) {
@@ -252,10 +251,13 @@ footer p {
 
 @media (max-width: 375px) {
 
-  .motto h2 {
+  h2.motto {
     font-size: 64px;
   }
-}
+
+  h2.title {
+    font-size: 52px;
+  }
 
 @media (max-width: 320px) {
 
