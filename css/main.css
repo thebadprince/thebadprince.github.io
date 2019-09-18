@@ -154,6 +154,11 @@ section.content {
   margin-bottom: 10px;
 }
 
+p.footnote {
+  margin-top: 75px;
+  font-size: 14px;
+  font-weight: 700;
+}
 
 footer p {
   font-size: 14px;
