@@ -149,6 +149,11 @@ section.content {
   margin-bottom: 15px;
 }
 
+.texts li {
+  /* list-style-type: circle; */
+  margin-bottom: 10px;
+}
+
 
 footer p {
   font-size: 14px;
