@@ -146,6 +146,10 @@ ol.beliefs {
   margin-bottom: 25px;
 }
 
+ol {
+  font-feature-settings: 'ss01' 1, 'zero' 1;
+}
+
 section.content {
   margin-left: auto;
   margin-right: auto;
