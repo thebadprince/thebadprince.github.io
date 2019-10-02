@@ -281,11 +281,6 @@ footer p {
     margin-bottom: 60px;
   }
 
-  h2.title {
-    font-size: 64px;
-    margin-bottom: 40px;
-  }
-
   h3 {
     font-size: 30px;
   }
@@ -308,11 +303,7 @@ footer p {
 @media (max-width: 375px) {
 
   h2.motto {
-    font-size: 64px;
-  }
-
-  h2.title {
-    font-size: 52px;
+    font-size: 68px;
   }
 
 @media (max-width: 320px) {
