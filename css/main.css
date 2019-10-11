@@ -216,6 +216,10 @@ footer p {
   color: #DEA74F;
 }
 
+img {
+  width: 100%;
+}
+
 /*  Media Queries ------------- */
 
 @media (min-width: 1600px) {
