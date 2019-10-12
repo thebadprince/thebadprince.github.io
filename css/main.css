@@ -81,7 +81,7 @@ h2.motto {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 108px;
   line-height: 1;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 100px;
   color: #FFFFFF;
 }
@@ -109,7 +109,7 @@ h3 {
 }
 
 .description h3 {
-  font-size: 28px;
+  font-size: 34px;
   text-align: left;
   margin: 0;
 }
