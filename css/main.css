@@ -19,6 +19,11 @@ body {
   margin-bottom: 0; */
 }
 
+::selection {
+  background: #DEA74F;
+  color: #DEDEDE;
+}
+
 header {
   padding: 40px;
   overflow: hidden;
