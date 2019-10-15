@@ -191,12 +191,12 @@ section.main {
 }
 
 .contact li {
-  /* list-style-type: circle; */
+  list-style-type: circle;
   margin-bottom: 15px;
 }
 
 .standard li {
-  /* list-style-type: circle; */
+  list-style-type: circle;
   margin-bottom: 10px;
 }
 
