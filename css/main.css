@@ -190,13 +190,15 @@ section.main {
   margin-top: 40px;
 }
 
-.contact li {
+ul li {
   list-style-type: circle;
+}
+
+.contact li {
   margin-bottom: 15px;
 }
 
 .standard li {
-  list-style-type: circle;
   margin-bottom: 10px;
 }
 
