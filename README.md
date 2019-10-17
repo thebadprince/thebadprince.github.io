@@ -1,4 +1,4 @@
-# Build Tomorrow today
+# Build Tomorrow Today.™
 
 ## Jomi Cubol is an interdisciplinary product strategist and designer focused on transformative software.
 
