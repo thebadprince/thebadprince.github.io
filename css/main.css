@@ -106,7 +106,8 @@ h2.title {
 }
 
 h3 {
-  font-family: 'IBM Plex Sans';
+  /* font-family: 'DM Serif Display', serif; */
+  font-family: 'IBM Plex Sans', sans serif;
   font-size: 34px;
   font-weight: 700;
   margin-top: 50px;
