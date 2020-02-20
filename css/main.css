@@ -10,7 +10,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Inter', sans-serif;
-  font-size: 20px;
+  /* font-family: 'Red Hat Text', sans-serif; */
+  /* font-family: 'Overpass', sans-serif; */
+  font-size: 19px;
   font-weight: 300;
   line-height: 1.4;
   color: #DEDEDE;
@@ -111,7 +113,7 @@ h2.motto {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 108px;
   line-height: 1;
-  margin-top: 75px;
+  margin-top: 90px;
   margin-bottom: 60px;
   text-align: left;
   color: #FFFFFF;
@@ -128,19 +130,21 @@ h3 {
 }
 
 h3.description {
-  font-size: 34px;
+  font-size: 36px;
   text-align: left;
   margin: 0;
 }
 
 h3.lede {
-  font-size: 42px;
+  font-size: 46px;
+  text-align: center;
   margin: 40px 0;
 }
 
 h3.project {
-  font-size: 42px;
+  font-size: 46px;
   text-align: center;
+  color: #FFFFFF;
 }
 
 h4 {
@@ -188,7 +192,7 @@ a:hover {
 }
 
 li {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.4;
   color: #DEDEDE;
 }
@@ -309,6 +313,10 @@ img.logo {
   width: auto;
 }
 
+img.work {
+  filter: grayscale(100%);
+}
+
 /*  Media Queries ------------- */
 
 @media (min-width: 1600px) {
@@ -393,7 +401,7 @@ img.logo {
   }
 
   h3, .description h3 {
-    font-size: 28px;
+    font-size: 32px;
   }
 
   h4 {
