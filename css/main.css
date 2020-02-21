@@ -145,6 +145,7 @@ h3.lede {
 h3.project {
   font-size: 46px;
   text-align: center;
+  line-height: 1.2;
 }
 
 h4 {
@@ -312,7 +313,7 @@ img {
   width: 100%;
 }
 
-.logo {
+img.logo {
   width: auto;
 }
 
@@ -387,6 +388,14 @@ img {
     margin-top: 20;
   }
 
+  section.medium {
+    width: 100%;
+  }
+
+  h1.title {
+    font-size: 56px;
+  }
+
   h2.motto {
     margin-top: 40px;
     margin-bottom: 60px;
@@ -397,8 +406,16 @@ img {
     margin-bottom: 20px;
   }
 
-  h3, .description h3 {
-    font-size: 32px;
+  h3.description {
+    font-size: 30px;
+  }
+
+  h3.lede {
+    font-size: 36px;
+  }
+
+  h3.project {
+    font-size: 40px;
   }
 
   h4 {
