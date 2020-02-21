@@ -312,12 +312,8 @@ img {
   width: 100%;
 }
 
-img.logo {
+.logo {
   width: auto;
-}
-
-img.work {
-  filter: grayscale(100%);
 }
 
 /*  Media Queries ------------- */
@@ -335,8 +331,6 @@ img.work {
     max-width: 1440px;
   }
 }
-
-
 
 @media (max-width: 1200px) {
 
