@@ -14,7 +14,7 @@ body {
   /* font-family: 'Overpass', sans-serif; */
   font-size: 19px;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.45;
   color: #DEDEDE;
   word-wrap: break-word; /* for long words & urls */
   /* margin-top: 0;
@@ -78,7 +78,7 @@ header nav a:hover {
 .summary {
   overflow: hidden;
   padding: 0 40px;
-  margin: 30px 0 0 0;
+  margin: 30px 0 200px 0;
 }
 
 .summary div {
@@ -86,9 +86,29 @@ header nav a:hover {
   width: 50%;
 }
 
-/* .section_description p {
-  font-size: 20px;
-} */
+
+/* Small Width */
+.small {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  margin-bottom: 40px;
+}
+
+/* Default Width */
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 680px;
+}
+
+/* Medium Width */
+.medium {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  margin-bottom: 40px;
+}
 
 h1.title {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -142,15 +162,10 @@ h3.lede {
   line-height: 1.2;
 }
 
-h3.project {
-  font-size: 46px;
-  text-align: center;
-  line-height: 1.2;
-}
-
 h4 {
   font-size: 22px;
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -176,6 +191,11 @@ img.inline {
   padding: 0;
 }
 
+p.description {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
 p.caption {
   font-size: 12px;
   margin-top: 0;
@@ -195,7 +215,7 @@ a:hover {
 
 li {
   font-size: 19px;
-  line-height: 1.4;
+  line-height: 1.45;
   color: #DEDEDE;
 }
 
@@ -215,27 +235,6 @@ ol.beliefs {
 
 ol {
   font-feature-settings: 'ss01' 1, 'zero' 1;
-}
-
-section.text {
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
-  margin-bottom: 50px;
-}
-
-section.content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
-  margin-bottom: 200px;
-}
-
-section.medium {
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  margin-bottom: 100px;
 }
 
 .contact {
@@ -379,7 +378,7 @@ img.logo {
   }
 
   header nav a.last_nav {
-    margin-right: 0;
+    margin-right: 0px;
   }
 
   section.summary {
@@ -388,12 +387,12 @@ img.logo {
     margin-top: 20;
   }
 
-  section.medium {
-    width: 100%;
+  .small, .content, .medium {
+    width: auto;
   }
 
   h1.title {
-    font-size: 56px;
+    font-size: 48px;
   }
 
   h2.motto {
@@ -401,9 +400,9 @@ img.logo {
     margin-bottom: 60px;
   }
 
-  h2.title {
-    font-size: 48px;
-    margin-bottom: 20px;
+  h3 {
+    font-size: 28px;
+    line-height: 1.2;
   }
 
   h3.description {
@@ -414,10 +413,6 @@ img.logo {
     font-size: 36px;
   }
 
-  h3.project {
-    font-size: 40px;
-  }
-
   h4 {
     font-size: 18px;
   }
@@ -426,12 +421,12 @@ img.logo {
     font-size: 18px;
   }
 
-  blockquote.pullquote {
-    font-size: 22px;
+  p.description {
+    font-size: 20px;
   }
 
-  section.content {
-    width: auto;
+  blockquote.pullquote {
+    font-size: 22px;
   }
 
   ol.beliefs {
