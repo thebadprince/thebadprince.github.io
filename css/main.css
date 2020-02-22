@@ -207,6 +207,14 @@ p.caption {
   padding: 0;
 }
 
+p.ornamentation {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+
 a, li a {
   color: #DEA74F;
   text-decoration: none;
