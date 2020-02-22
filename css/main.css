@@ -139,6 +139,14 @@ h2.motto {
   color: #FFFFFF;
 }
 
+h2.lede {
+  font-family: 'DM Serif Display', serif;
+  font-size: 46px;
+  text-align: center;
+  margin: 40px 0;
+  line-height: 1.2;
+}
+
 h3 {
   font-family: 'DM Serif Display', serif;
   font-size: 30px;
@@ -160,7 +168,7 @@ h3.description {
 }
 
 h3.lede {
-  font-size: 46px;
+  font-size: 40px;
   text-align: center;
   margin: 40px 0;
   line-height: 1.2;
