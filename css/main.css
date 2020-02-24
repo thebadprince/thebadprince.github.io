@@ -21,6 +21,10 @@ body {
   margin-bottom: 0; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::selection {
   background: #DEA74F;
   color: #DEDEDE;
@@ -204,7 +208,7 @@ img.inline {
 }
 
 p.description {
-  font-size: 22px;
+  font-size: 23px;
   line-height: 1.5;
 }
 
@@ -313,21 +317,6 @@ p.footnote {
   margin-bottom: 50px;
 }
 
-footer p {
-  font-size: 14px;
-  line-height: 1.5;
-  color: #DDDDDD;
-  width: 640px;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-
-.footnote_number {
-  color: #DEA74F;
-}
-
 img {
   width: 100%;
 }
@@ -344,6 +333,21 @@ img.logo {
 
 footer {
   margin-bottom: 100px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #DDDDDD;
+  width: 640px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 50px; */
+}
+
+.footnote_number {
+  color: #DEA74F;
 }
 
 /*  Media Queries ------------- */
