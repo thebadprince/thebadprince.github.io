@@ -346,6 +346,10 @@ footer p {
   /* margin-bottom: 50px; */
 }
 
+footer a:hover {
+  border-bottom: none;
+}
+
 .footnote_number {
   color: #DEA74F;
 }
