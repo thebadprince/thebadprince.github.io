@@ -74,6 +74,11 @@ header nav a.selected {
   color: #DEDEDE;
 }
 
+/* header nav a.cta {
+  color: #DEA74F;
+  font-weight: 700;
+} */
+
 header nav a:hover {
   color: #DEDEDE;
   border-bottom: none;
