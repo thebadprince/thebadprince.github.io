@@ -337,6 +337,11 @@ img.logo {
   border-bottom: none;
 }
 
+.mobilevid {
+  display: block;
+  margin: 0 auto;
+}
+
 footer {
   margin-bottom: 100px;
 }
