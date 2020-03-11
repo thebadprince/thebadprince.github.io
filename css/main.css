@@ -337,6 +337,12 @@ img.logo {
   border-bottom: none;
 }
 
+.scroll-transition-fade {
+  transition: 1s
+  ease-in-out, opacity .8s
+  ease-in-out;
+}
+
 video {
   display: block;
   margin: 0 auto;
