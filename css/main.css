@@ -401,6 +401,18 @@ footer a:hover {
     width: 100%;
   }
 
+  header nav {
+    margin-top: 10px;
+  }
+
+  header nav a {
+    margin-left: 0;
+    font-size: 14px;
+    margin-right: 10px;
+    color: #777;
+    line-height: 2;
+  }
+
 }
 
 
@@ -417,18 +429,6 @@ footer a:hover {
   header h1,
   header nav {
     float: none;
-  }
-
-  header nav {
-    margin-top: 10px;
-  }
-
-  header nav a {
-    margin-left: 0;
-    font-size: 14px;
-    margin-right: 10px;
-    color: #777;
-    line-height: 2;
   }
 
   header nav a.last_nav {
