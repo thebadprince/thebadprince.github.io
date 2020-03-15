@@ -401,6 +401,11 @@ footer a:hover {
     width: 100%;
   }
 
+  header h1,
+  header nav {
+    float: none;
+  }
+
   header nav {
     margin-top: 10px;
   }
@@ -424,11 +429,6 @@ footer a:hover {
 
   header {
     padding: 20px 0;
-  }
-
-  header h1,
-  header nav {
-    float: none;
   }
 
   header nav a.last_nav {
