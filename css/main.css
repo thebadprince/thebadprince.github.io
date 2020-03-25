@@ -6,19 +6,16 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
   background-color: #111;
-  /* background-image: url("/assets/photos/beanstalk-dark.png"); */
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Inter', sans-serif;
-  /* font-family: 'Red Hat Text', sans-serif; */
-  /* font-family: 'Overpass', sans-serif; */
   font-size: 19px;
   font-weight: 300;
   line-height: 1.45;
   color: #DEDEDE;
   word-wrap: break-word; /* for long words & urls */
-  /* margin-top: 0;
-  margin-bottom: 0; */
 }
 
 html {
@@ -31,20 +28,14 @@ html {
 }
 
 header {
-  padding: 40px 40px 20px 40px;
+  padding: 50px 40px 20px 40px;
   overflow: hidden;
 }
 
-header h1 {
+header h1, header h1 a  {
   float: left;
   margin: 0;
   line-height: 0;
-}
-
-header h1 a {
-  line-height: 0;
-  margin: 0;
-  padding: 0;
 }
 
 header h1 a:hover {
@@ -60,7 +51,6 @@ header nav {
 
 header nav a {
   text-decoration: none;
-  font-weight: 700;
   margin-left: 25px;
   font-size: 16px;
   text-transform: uppercase;
@@ -73,11 +63,6 @@ header nav a {
 header nav a.selected {
   color: #DEDEDE;
 }
-
-/* header nav a.cta {
-  color: #DEA74F;
-  font-weight: 700;
-} */
 
 header nav a:hover {
   color: #DEDEDE;
