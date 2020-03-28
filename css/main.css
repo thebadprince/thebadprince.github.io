@@ -42,9 +42,9 @@ header h1 a:hover {
   border-bottom: none;
 }
 
-header nav {
+nav {
   float: right;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   line-height: 1;
 }
@@ -386,15 +386,6 @@ footer a:hover {
     width: 100%;
   }
 
-  header h1,
-  header nav {
-    float: none;
-  }
-
-  header nav {
-    margin-top: 10px;
-  }
-
   header nav a {
     margin-left: 0;
     font-size: 14px;
@@ -408,6 +399,28 @@ footer a:hover {
 
 @media (max-width: 640px){
 
+  header {
+    margin: 1em 0 0 0;
+  }
+
+  header nav a.last_nav {
+    margin-right: 0px;
+  }
+
+  header h1 a {
+    float: none;
+  }
+
+  /* header h1 {
+    float: none;
+    display: block;
+  } */
+
+  nav {
+    margin: 2em 0 0 0;
+    float: none;
+  }
+
   body {
     width: 90%;
   }
@@ -416,9 +429,7 @@ footer a:hover {
     padding: 20px 0;
   }
 
-  header nav a.last_nav {
-    margin-right: 0px;
-  }
+
 
   section.summary {
     padding: 0;
@@ -480,7 +491,6 @@ footer a:hover {
   h2.motto {
     font-size: 68px;
   }
-
 }
 
 @media (max-width: 320px) {
