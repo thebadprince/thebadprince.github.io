@@ -4,13 +4,24 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@font-face {
+  font-family: `Heldane Text`;
+  src: url('fonts/heldane-text-web-regular.eot');
+  src: url('fonts/heldane-text-web-regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/heldane-text-web-regular.woff') format('woff'),
+        url('fonts/heldane-text-web-regular.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   background-color: #111;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: `Heldane Text`, serif;
   font-size: 19px;
   font-weight: 300;
   line-height: 1.45;
