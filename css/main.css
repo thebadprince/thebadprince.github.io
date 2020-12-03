@@ -35,10 +35,9 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 
-
 body {
-  /* font-family: 'Inter', sans-serif; */
-  font-family: 'Heldane Text', serif;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Heldane Text', serif; */
   background-color: #111;
   margin-top: 0;
   margin-bottom: 0;
