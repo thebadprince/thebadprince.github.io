@@ -543,10 +543,15 @@ footer a:hover {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
   h2.motto {
     font-size: 75px;
+  }
+
+  h3.description {
+    font-size: 26px;
+    line-height: 1.3;
   }
 }
 
