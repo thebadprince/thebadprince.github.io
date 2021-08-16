@@ -169,6 +169,7 @@ h2.motto {
   text-align: left;
   color: #FFFFFF;
   line-break: loose;
+  max-width: 500px;
 }
 
 h2.lede {
@@ -195,6 +196,10 @@ h3 {
 
 h3 a {
   font-weight: 400;
+}
+
+.description {
+  max-width: 720px;
 }
 
 h3.description {
