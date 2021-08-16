@@ -102,9 +102,12 @@ header nav a:hover {
 }
 
 .summary {
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 0 40px;
   margin: 40px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .summary div {
@@ -160,7 +163,7 @@ h2.motto {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 120px;
   line-height: .95;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   margin-bottom: 60px;
   text-align: left;
   color: #FFFFFF;
@@ -408,21 +411,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 1200px) {
-
-  .motto h2 {
-    font-size: 80px;
-    width: 100%;
-  }
-}
-
-
-@media (max-width: 1023px) {
-
-  .summary div {
-    float: none;
-    width: 100%;
-  }
+@media (max-width: 1080px) {
 
   header nav a {
     margin-left: 0;
@@ -430,6 +419,27 @@ footer a:hover {
     margin-right: 10px;
     color: #777;
     line-height: 2;
+  }
+
+  .summary {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+  }
+
+  .summary div {
+    float: none;
+    width: 640px;
+  }
+
+  .motto h2 {
+    font-size: 100px;
+    width: 100%;
+  }
+
+  .description h3 {
+    font-size: 34px;
   }
 
 }
@@ -467,10 +477,15 @@ footer a:hover {
     padding: 20px 0;
   }
 
-  section.summary {
+  .summary {
     padding: 0;
     margin-bottom: 100px;
     margin-top: 0px;
+    display: block;
+  }
+
+  .summary div {
+    width: 100%;
   }
 
   .small, .content, .medium {
