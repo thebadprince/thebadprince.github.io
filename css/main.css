@@ -452,10 +452,6 @@ footer a:hover {
 
 @media (max-width: 640px){
 
-  header {
-    margin: 1em 0 0 0;
-  }
-
   header nav a.last_nav {
     margin-right: 0px;
   }
@@ -475,7 +471,7 @@ footer a:hover {
   }
 
   body {
-    width: 90%;
+    padding: 16px;
   }
 
   header {
@@ -508,16 +504,12 @@ footer a:hover {
   }
 
   h2.lede {
-    font-size: 36px;
-  }
-
-  h3 {
-    font-size: 26px;
-    line-height: 1.2;
+    font-size: 34px;
   }
 
   h3.lede, h3.description {
-    font-size: 30px;
+    font-size: 27px;
+    line-height: 1.2;
   }
 
   h4 {
@@ -546,7 +538,7 @@ footer a:hover {
 @media (max-width: 425px) {
 
   h2.motto {
-    font-size: 75px;
+    font-size: 80px;
   }
 
   h3.description {
