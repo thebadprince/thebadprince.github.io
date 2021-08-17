@@ -498,8 +498,12 @@ footer a:hover {
   }
 
   h3.lede, h3.description {
-    font-size: 27px;
+    font-size: 28px;
     line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 24px;
   }
 
   h4 {
@@ -532,7 +536,7 @@ footer a:hover {
   }
 
   h3.description {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 1.3;
   }
 }
