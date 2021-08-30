@@ -37,13 +37,13 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
   font-family: 'Inter', sans-serif;
-  /* font-family: 'Heldane Text', serif; */
   background-color: #111;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  font-size: 19px;
+  font-size: 18px;
+  letter-spacing: -0.014px;
   font-weight: 300;
   line-height: 1.45;
   color: #DEDEDE;
@@ -201,6 +201,8 @@ h3 a {
 
 .description {
   max-width: 720px;
+  /* font-family: 'Heldane Text', serif;
+  font-weight: 700; */
 }
 
 h3.description {
