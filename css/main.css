@@ -4,7 +4,7 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 } */
 
-@font-face {
+/* @font-face {
    font-family: 'Heldane Text';
    src: url('../fonts/heldane-text-web-regular.eot');
    src: url('../fonts/heldane-text-web-regular?#iefix') format('embedded-opentype'),
@@ -32,7 +32,7 @@ html { font-family: 'Inter', sans-serif; }
         url('../fonts/heldane-text-web-bold.woff') format('woff');
    font-weight: 700;
    font-style: bold;
-}
+} */
 
 
 body {
@@ -108,7 +108,7 @@ header nav a:hover {
 .index {
   /* overflow: hidden; */
   padding: 0 40px;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
