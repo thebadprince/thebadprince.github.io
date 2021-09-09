@@ -36,7 +36,6 @@ html { font-family: 'Inter', sans-serif; }
 
 
 body {
-  /* font-family: 'Inter', sans-serif; */
   font-family: 'Public Sans', sans-serif;
   font-weight: 300;
   background-color: #111;
@@ -62,15 +61,13 @@ html {
 }
 
 header {
-  padding: 50px 40px 40px 40px;
-  /* overflow: hidden; */
+  padding: 50px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 header h1, header h1 a  {
-  /* float: left; */
   margin: 0;
   line-height: 0;
 }
@@ -80,19 +77,17 @@ header h1 a:hover {
 }
 
 nav {
-  /* float: right; */
-  /* margin: 0; */
   padding: 0;
   line-height: 1;
 }
 
 header nav a {
+  font-family: 'Share Tech Mono', monospace;
   text-decoration: none;
-  margin-left: 25px;
-  font-size: 16px;
+  margin-left: 28px;
+  font-size: 17px;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: .5px;
   color: #777;
   line-height: 0;
 }
@@ -107,7 +102,6 @@ header nav a:hover {
 }
 
 .index {
-  /* overflow: hidden; */
   padding: 0 40px;
   margin: 20px 0 0 0;
   display: flex;
@@ -115,12 +109,6 @@ header nav a:hover {
   align-items: center;
   gap: 40px;
 }
-
-/* .flex-gap {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 12px;
-} */
 
 /* Small Width */
 .small {
@@ -141,12 +129,11 @@ header nav a:hover {
 .medium {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
   margin-bottom: 40px;
 }
 
 h1.title {
-  /* font-family: 'IBM Plex Sans', sans-serif; */
   font-family: 'Public Sans', sans-serif;
   font-size: 64px;
   color: #FFFFFF;
@@ -179,10 +166,11 @@ h2.motto {
 h2.lede {
   font-family: 'DM Serif Display', serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 36px;
   text-align: center;
-  margin: 40px 0;
+  margin: 20px auto 40px;
   line-height: 1.2;
+  width: 720px;
 }
 
 h2.lede a {
@@ -365,8 +353,7 @@ td {
 
 
 hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 60px 0;
   border: 1px solid #333;
 }
 
@@ -412,7 +399,6 @@ footer p {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 50px; */
 }
 
 footer a:hover {
@@ -448,8 +434,8 @@ footer a:hover {
 
   header nav a {
     margin-left: 0;
-    font-size: 14px;
-    margin-right: 10px;
+    font-size: 16px;
+    margin-right: 16px;
     color: #777;
     line-height: 2;
   }
@@ -523,6 +509,7 @@ footer a:hover {
 
   h2.lede {
     font-size: 34px;
+    width: auto;
   }
 
   h3.lede, h3.description {
