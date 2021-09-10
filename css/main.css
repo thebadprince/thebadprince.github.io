@@ -110,6 +110,10 @@ header nav a:hover {
   gap: 40px;
 }
 
+.about {
+  align-items: flex-start;
+}
+
 /* Small Width */
 .small {
   margin-left: auto;
@@ -196,6 +200,7 @@ h3.description {
   font-weight: 700;
   font-size: 28px;
   text-align: left;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -368,6 +373,10 @@ img {
 
 img.logo {
   width: auto;
+}
+
+img.about-photo {
+  width: 50%;
 }
 
 .img-container {
@@ -549,6 +558,10 @@ footer a:hover {
   h2.motto {
     font-size: 72px;
     margin-bottom: 56px;
+  }
+
+  h2.lede {
+    font-size: 28px;
   }
 
   h3.description {
