@@ -419,6 +419,8 @@ p.footnote {
 }
 
 img {
+  margin-top: 16px;
+  margin-bottom: 4px;
   width: 100%;
 }
 
