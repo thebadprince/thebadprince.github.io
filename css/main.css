@@ -61,7 +61,7 @@ html {
 }
 
 header {
-  padding: 50px 40px;
+  padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -567,7 +567,7 @@ footer a:hover {
   }
 
   header {
-    padding: 20px 0;
+    padding: 0;
   }
 
   .index {
