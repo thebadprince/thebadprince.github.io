@@ -401,6 +401,10 @@ ol {
   font-feature-settings: 'ss01' 1, 'zero' 1;
 }
 
+ol li {
+  margin: 12px 0;
+}
+
 .contact {
   margin-top: 40px;
 }
