@@ -285,6 +285,19 @@ h6 {
   color: #777;
 }
 
+
+a, li a {
+  color: #DEA74F;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  /* border-bottom: 2px solid; */
+  border-bottom: 1mm solid rgb(247, 182, 77);
+}
+
+
 section.summary {
   margin-bottom: 100px;
 }
@@ -311,14 +324,18 @@ section.summary {
 
 .grid-child img {
   margin-top: 0;
-  transition: transform 250ms ease;
+  transition: transform 250ms ease-in-out;
 }
 
 .grid-child img:hover {
-  /* transform: scale(1.1); */
-  transform: translateY(-10px);
+  transform: scale(1.05);
+  /* transform: translateY(-10px); */
 }
 
+
+.grid-child a:hover {
+  border-bottom: none;
+}
 
 blockquote.pullquote {
   /* font-family: 'IBM Plex Sans', serif; */
@@ -358,17 +375,6 @@ p.ornamentation {
   text-align: center;
   font-size: 28px;
   font-weight: 400;
-}
-
-a, li a {
-  color: #DEA74F;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-a:hover {
-  /* border-bottom: 2px solid; */
-  border-bottom: 1mm solid rgb(247, 182, 77);
 }
 
 li {
