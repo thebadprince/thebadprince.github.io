@@ -309,8 +309,14 @@ section.summary {
   flex: 1 0 21%;
 }
 
-img.grid-child {
+.grid-child img {
   margin-top: 0;
+  transition: transform 250ms ease;
+}
+
+.grid-child img:hover {
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
 }
 
 
@@ -361,7 +367,8 @@ a, li a {
 }
 
 a:hover {
-  border-bottom: 2px solid;
+  /* border-bottom: 2px solid; */
+  border-bottom: 1mm solid rgb(247, 182, 77);
 }
 
 li {
