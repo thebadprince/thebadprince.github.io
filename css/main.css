@@ -244,7 +244,7 @@ h5 {
   font-family: 'Public Sans', sans-serif;
   font-size: 24px;
   line-height: 1.45;
-  margin: 8px 0;
+  margin: 8px 0 28px;
   color: #FFECCF;
 }
 
@@ -412,6 +412,10 @@ ol li {
 ul li {
   list-style-type: circle;
   margin: 16px 0;
+}
+
+ul.purpose li {
+  font-weight: 700;
 }
 
 .contact li {
