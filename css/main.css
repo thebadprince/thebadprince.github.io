@@ -236,7 +236,7 @@ h4.experience {
   font-size: 32px;
   text-transform: none;
   text-align: left;
-  /* margin-top: 4em; */
+  margin-top: 16px;
   margin-bottom: 4px;
 }
 
@@ -307,8 +307,8 @@ section.summary {
 }
 
 .job {
-  margin-top: 1em;
-  margin-bottom: 5em;
+  margin-top: 4em;
+  margin-bottom: 6em;
 }
 
 .grid {
