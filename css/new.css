@@ -83,15 +83,20 @@ body {
 
   a, a:visited {
     /* font-style: italic; */
-    color: #ababab;
+    /* color: #ababab; */
+    color: #b5b5b5;
     text-decoration: none;
     /* border-bottom: 8px solid #838383; */
+    transition-property: color;
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
   }
 
 a:hover {
     color: #fff;
-    /* border-bottom: 8px solid #fff; */
-    transition: ease-in 0.3s;
+    transition-property: color;
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
 }
 
 @media screen and (max-width: 600px) {
