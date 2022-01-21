@@ -1,0 +1,107 @@
+/* @font-face {
+    font-family: 'Heldane Text';
+    src: url('../fonts/heldane-text-web-regular.eot');
+    src: url('../fonts/heldane-text-web-regular?#iefix') format('embedded-opentype'),
+         url('../fonts/heldane-text-web-regular.woff2') format('woff2'),
+         url('../fonts/heldane-text-web-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Heldane Text';
+    src: url('../fonts/heldane-text-web-regular-italic.eot');
+    src: url('../fonts/heldane-text-web-regular-italic?#iefix') format('embedded-opentype'),
+         url('../fonts/heldane-text-web-regular-italic.woff2') format('woff2'),
+         url('../fonts/heldane-text-web-regular-italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+ }
+
+
+@font-face {
+    font-family: 'Heldane Text';
+    src: url('../fonts/heldane-text-web-bold.eot');
+    src: url('../fonts/heldane-text-web-bold?#iefix') format('embedded-opentype'),
+         url('../fonts/heldane-text-web-bold.woff2') format('woff2'),
+         url('../fonts/heldane-text-web-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+}
+*/
+
+   @font-face {
+    font-family: 'Graphik Wide Web';
+    src: url('../fonts/GraphikWide-BlackItalic-Web.woff2') format('woff2'),
+         url('../fonts/GraphikWide-BlackItalic-Web.woff') format('woff');
+    font-weight:  800;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  .GraphikWide-BlackItalic-Web {
+    font-family: 'Graphik Wide Web';
+    font-weight:  800;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Graphik Wide Web';
+    src: url('../fonts/GraphikWide-Black-Web.woff2') format('woff2'),
+         url('../fonts/GraphikWide-Black-Web.woff') format('woff');
+    font-weight:  800;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+  
+  .GraphikWide-Black-Web {
+    font-family: 'Graphik Wide Web';
+    font-weight:  800;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+
+html {
+    margin: 40px;
+    width: 95%;
+}
+
+body {
+    background-color: #111;
+    color: #838383;
+  }
+
+  h1 {
+      font-family: 'Graphik Wide Web';
+      font-weight: 800;
+      font-size: 64px;
+      line-height: 1.25;
+      margin: 0;
+  }
+
+  a, a:visited {
+    /* font-style: italic; */
+    color: #ababab;
+    text-decoration: none;
+    /* border-bottom: 8px solid #838383; */
+  }
+
+a:hover {
+    color: #fff;
+    border-bottom: 8px solid #fff;
+    transition: ease-in 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        margin: 16px;
+        width: 85%;
+    }  
+    
+    h1 {
+          font-size: 30px;
+          line-height: 1.3;
+      }
+  }
