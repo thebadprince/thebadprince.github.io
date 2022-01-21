@@ -90,7 +90,7 @@ body {
 
 a:hover {
     color: #fff;
-    border-bottom: 8px solid #fff;
+    /* border-bottom: 8px solid #fff; */
     transition: ease-in 0.3s;
 }
 
