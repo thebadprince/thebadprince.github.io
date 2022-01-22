@@ -66,11 +66,21 @@
 
 body {
     /* background-color: #111; */
-    background-color: #0A1128;
+    /* background-color: #0A1128; */
     /* color: #838383; */
+    background-color: #010103;
     color: #FEFCFB;
-    margin: auto;
     width: 95%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   h1 {
@@ -78,6 +88,7 @@ body {
       font-weight: 800;
       font-size: 62px;
       line-height: 1.25;
+      margin-bottom: 20px;
   }
 
   a, a:visited {
@@ -117,7 +128,9 @@ a:hover {
     }
 
     h1 {
-          font-size: 28px;
-          line-height: 1.35;
+        /* margin-top: 0; */
+        /* margin-bottom: 0; */
+        font-size: 28px;
+        line-height: 1.35;
       }
   }
