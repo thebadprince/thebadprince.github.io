@@ -65,8 +65,10 @@
 
 
 body {
-    background-color: #111;
-    color: #838383;
+    /* background-color: #111; */
+    background-color: #0A1128;
+    /* color: #838383; */
+    color: #FEFCFB;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
@@ -85,19 +87,20 @@ body {
   a, a:visited {
     /* font-style: italic; */
     /* color: #ababab; */
-    color: #b5b5b5;
+    color: #0C86F9;
     text-decoration: none;
-    /* border-bottom: 8px solid #838383; */
     transition-property: color;
     transition-timing-function: ease-in;
-    transition-duration: 0.3s;
+    transition-duration: 0.25s;
+    /* border-bottom: 0px solid; */
   }
 
 a:hover {
-    color: #fff;
+    color: #78BCFC;
     transition-property: color;
     transition-timing-function: ease-in;
-    transition-duration: 0.3s;
+    transition-duration: 0.25s;
+    /* border-bottom: 8px solid #1282A2; */
 }
 
 @media screen and (max-width: 600px) {
