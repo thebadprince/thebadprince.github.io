@@ -99,6 +99,14 @@ a:hover {
     /* border-bottom: 8px solid #1282A2; */
 }
 
+
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 80px;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
     
     body {
