@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Graphik Wide Web';
+    src: url('../fonts/GraphikWide-BlackItalic-Web.woff2') format('woff2'),
+         url('../fonts/GraphikWide-BlackItalic-Web.woff') format('woff');
+    font-weight:  800;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  .GraphikWide-BlackItalic-Web {
+    font-family: 'Graphik Wide Web';
+    font-weight:  800;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Graphik Wide Web';
+    src: url('../fonts/GraphikWide-Black-Web.woff2') format('woff2'),
+         url('../fonts/GraphikWide-Black-Web.woff') format('woff');
+    font-weight:  800;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+  
+  .GraphikWide-Black-Web {
+    font-family: 'Graphik Wide Web';
+    font-weight:  800;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+
+/* 
+@font-face {
+    font-family: 'iAWriter';
+    font-style: normal;
+    src:  url('../fonts/iAWriter/iAWriterMonoS-Regular.woff2') format('woff2'),
+          url('../fonts/iAWriter/iAWriterMonoS-Regular.woff') format('woff'),
+          url('../fonts/iAWriter/iAWriterMonoS-Italic.woff2') format('woff2'),
+          url('../fonts/iAWriter/iAWriterMonoS-Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'iAWriter';
+      src:  url('../fonts/iAWriter/iAWriterMonoS-Bold.woff2') format('woff2'),
+            url('../fonts/iAWriter/iAWriterMonoS-Bold.woff') format('woff');
+      font-weight: 700;
+      font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'iAWriter';
+      src:  url('../fonts/iAWriter/iAWriterMonoS-BoldItalic.woff2') format('woff2'),
+            url('../fonts/iAWriter/iAWriterMonoS-BoldItalic.woff') format('woff');
+      font-weight: 700;
+      font-style: italic;
+  } */
+  
+  @font-face {
+    font-family: 'Atlas Grotesk';
+      src:  url('../fonts/atlas-grotesk/AtlasGrotesk-Regular-Web.woff2') format('woff2'),
+            url('../fonts/atlas-grotesk/AtlasGrotesk-Regular-Web.woff') format('woff'),
+            url('../fonts/atlas-grotesk/AtlasGrotesk-RegularItalic-Web.woff2') format('woff2'),
+            url('../fonts/atlas-grotesk/AtlasGrotesk-RegularItalic-Web.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Atlas Grotesk';
+      src:  url('../fonts/atlas-grotesk/AtlasGrotesk-Bold-Web.woff2') format('woff2'),
+            url('../fonts/atlas-grotesk/AtlasGrotesk-Bold-Web.woff') format('woff');
+      font-weight: 700;
+      font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Atlas Grotesk';
+      src:  url('../fonts/atlas-grotesk/AtlasGrotesk-BoldItalic-Web.woff2') format('woff2'),
+            url('../fonts/atlas-grotesk/AtlasGrotesk-BoldItalic-Web.woff') format('woff');
+      font-weight: 700;
+      font-style: italic;
+  }
+
+  body {
+    font-family: 'Atlas Grotesk', sans-serif;
+    background-color: #181818;
+    color: #b4b4b4;
+    margin: 10px 40px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+      /* font-family: 'iAWriter', mono; */
+      /* text-transform: uppercase; */
+      font-family: 'Graphik Wide Web';
+      font-size: 62px;
+      line-height: 1.25;
+      color: #fff;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .more {
+      margin-top: 40px;
+      list-style: none;
+      padding-left: 0;
+  }
+
+  .more li {
+      margin-bottom: 16px;
+      font-size: 24px;
+  }
+
+  a, a:visited {
+    /* font-style: italic; */
+    /* color: #ababab; */
+    color: #0C86F9;
+    text-decoration: none;
+    transition-property: color;
+    transition-timing-function: ease-in;
+    transition-duration: 0.25s;
+    /* border-bottom: 0px solid; */
+  }
+
+a:hover {
+    color: #78BCFC;
+    transition-property: color;
+    transition-timing-function: ease-in;
+    transition-duration: 0.25s;
+    /* border-bottom: 8px solid #1282A2; */
+}
+
+
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 80px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        width: 85%;
+        margin-top: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    h1 {
+        /* margin-top: 0; */
+        /* margin-bottom: 0; */
+        font-size: 34px;
+        line-height: 1.35;
+      }
+  }
