@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Heldane Text';
+    src: url('../fonts/heldane-text-web-regular.eot');
+    src: url('../fonts/heldane-text-web-regular?#iefix') format('embedded-opentype'),
+         url('../fonts/heldane-text-web-regular.woff2') format('woff2'),
+         url('../fonts/heldane-text-web-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Heldane Text';
+    src: url('../fonts/heldane-text-web-regular-italic.eot');
+    src: url('../fonts/heldane-text-web-regular-italic?#iefix') format('embedded-opentype'),
+         url('../fonts/heldane-text-web-regular-italic.woff2') format('woff2'),
+         url('../fonts/heldane-text-web-regular-italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+ }
+
+
+@font-face {
+    font-family: 'Heldane Text';
+    src: url('../fonts/heldane-text-web-bold.eot');
+    src: url('../fonts/heldane-text-web-bold?#iefix') format('embedded-opentype'),
+         url('../fonts/heldane-text-web-bold.woff2') format('woff2'),
+         url('../fonts/heldane-text-web-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: 'Graphik Wide Web';
+    src: url('../fonts/GraphikWide-BlackItalic-Web.woff2') format('woff2'),
+         url('../fonts/GraphikWide-BlackItalic-Web.woff') format('woff');
+    font-weight:  800;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  .GraphikWide-BlackItalic-Web {
+    font-family: 'Graphik Wide Web';
+    font-weight:  800;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Graphik Wide Web';
+    src: url('../fonts/GraphikWide-Black-Web.woff2') format('woff2'),
+         url('../fonts/GraphikWide-Black-Web.woff') format('woff');
+    font-weight:  800;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+  
+  .GraphikWide-Black-Web {
+    font-family: 'Graphik Wide Web';
+    font-weight:  800;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+
+
+body {
+    /* background-color: #111; */
+    /* background-color: #0A1128; */
+    /* color: #838383; */
+    /* background-color: #010103; */
+    font-family: 'Heldane Text', serif;
+    background-color: #181818;
+    color: #b4b4b4;
+    width: 95%;
+    margin: 10px 40px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+      font-family: 'Graphik Wide Web';
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 1.25;
+      color: #fff;
+      /* margin: 0; */
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  a, a:visited {
+    /* font-style: italic; */
+    /* color: #ababab; */
+    color: #0C86F9;
+    text-decoration: none;
+    transition-property: color;
+    transition-timing-function: ease-in;
+    transition-duration: 0.25s;
+    /* border-bottom: 0px solid; */
+  }
+
+a:hover {
+    color: #78BCFC;
+    transition-property: color;
+    transition-timing-function: ease-in;
+    transition-duration: 0.25s;
+    /* border-bottom: 8px solid #1282A2; */
+}
+
+
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 80px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        width: 85%;
+        margin-top: 64px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    h1 {
+        /* margin-top: 0; */
+        /* margin-bottom: 0; */
+        font-size: 28px;
+        line-height: 1.35;
+      }
+  }
