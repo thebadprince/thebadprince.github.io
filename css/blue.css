@@ -118,7 +118,8 @@
   a, a:visited {
     /* font-style: italic; */
     /* color: #ababab; */
-    color: #0C86F9;
+    /* color: #0C86F9; */
+    color: #58a6ff;
     text-decoration: none;
     transition-property: color;
     transition-timing-function: ease-in;
