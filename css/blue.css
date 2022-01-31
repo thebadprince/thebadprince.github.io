@@ -160,6 +160,10 @@ a:hover {
         line-height: 1.35;
       }
 
+      .more {
+        margin-top: 20px;
+    }
+
       .more li {
         margin-bottom: 16px;
         font-size: 18px;
