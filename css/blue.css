@@ -128,7 +128,8 @@
   }
 
 a:hover {
-    color: #78BCFC;
+    /* color: #78BCFC; */
+    color: #0C86F9;
     transition-property: color;
     transition-timing-function: ease-in;
     transition-duration: 0.25s;
