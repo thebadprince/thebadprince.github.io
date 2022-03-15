@@ -4,7 +4,7 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 } */
 
-/* @font-face {
+@font-face {
    font-family: 'Heldane Text';
    src: url('../fonts/heldane-text-web-regular.eot');
    src: url('../fonts/heldane-text-web-regular?#iefix') format('embedded-opentype'),
@@ -32,7 +32,7 @@ html { font-family: 'Inter', sans-serif; }
         url('../fonts/heldane-text-web-bold.woff') format('woff');
    font-weight: 700;
    font-style: bold;
-} */
+} 
 
 @font-face {
   font-family: 'Atlas Grotesk';
@@ -185,9 +185,10 @@ h2 {
 
 h2.motto {
   width: 100%;
-  font-family: 'DM Serif Display', serif;
+  /* font-family: 'DM Serif Display', serif; */
+  font-family: 'Heldane Text', serif;
   font-weight: 400;
-  font-size: 88px;
+  font-size: 80px;
   line-height: 1;
   display: flex;
   text-align: left;
@@ -198,7 +199,8 @@ h2.motto {
 }
 
 h2.lede {
-  font-family: 'DM Serif Display', serif;
+  /* font-family: 'DM Serif Display', serif; */
+  font-family: 'Heldane Text', serif;
   color: #FFF;
   font-weight: 400;
   font-size: 36px;
@@ -218,7 +220,8 @@ h2.portion {
 }
 
 h3 {
-  font-family: 'DM Serif Display', serif;
+  /* font-family: 'DM Serif Display', serif; */
+  font-family: 'Heldane Text', serif;
   font-weight: 400;
   font-size: 32px;
   margin-top: 20px;
@@ -259,7 +262,8 @@ h4 {
 }
 
 h4.experience {
-  font-family: 'DM Serif Display', serif;
+  /* font-family: 'DM Serif Display', serif; */
+  font-family: 'Heldane Text', serif;
   font-weight: 400;
   font-size: 32px;
   text-transform: none;
@@ -718,8 +722,9 @@ footer a:hover {
 @media (max-width: 425px) {
 
   h2.motto {
-    font-size: 64px;
-    margin-bottom: 24px;
+    font-size: 72px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   h2.lede {
