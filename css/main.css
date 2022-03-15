@@ -718,8 +718,8 @@ footer a:hover {
 @media (max-width: 425px) {
 
   h2.motto {
-    font-size: 72px;
-    margin-bottom: 56px;
+    font-size: 64px;
+    margin-bottom: 24px;
   }
 
   h2.lede {
