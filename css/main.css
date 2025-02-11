@@ -351,10 +351,6 @@ section.summary {
   margin-bottom: 6em;
 }
 
-.job img {
-  /* border-radius: 4px; */
-}
-
 .grid {
   display: flex;
   flex-wrap: wrap;
